@@ -208,6 +208,7 @@
 + On-demand (media)，点播（媒体）
 + Optimistic Concurrency，乐观并发控制
 + Overview，概览
++ over-post，过度提交
 
 ## P
 
@@ -331,6 +332,7 @@
 ## U
 
 + Ubiquitous Computing，普存计算
++ under-post，提交不足
 + Unit test，单元测试
 + Uncommitted，未提交（的）
 + Update Domain，更新域
