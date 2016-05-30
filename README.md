@@ -102,6 +102,8 @@
 
 ## E ##
 
++ EAP，早期评估版本（Early Assessment Program）
++ Early Assessment Program，早期评估版本（EAP）
 + Egress，流出
 + elasticity，弹性
 + Element (XML)，元素
@@ -125,8 +127,10 @@
 + follow up，跟进
 + foreign key，外键
 + forward，转发
++ FPP，零售版（Full Packaged Product）
 + free，免费
 + full-duplex，全双工
++ Full Packaged Product，零售版（FPP）
 
 ## G ##
 
@@ -268,6 +272,7 @@
 + request pipeline，请求管道
 + reserved，专属
 + reverse proxy module，反向代理模块
++ retail，零售版
 + Rich Client，丰富客户端
 + Ripple Effect，涟漪效应
 + role，角色
@@ -353,6 +358,9 @@
 + VIP Swap，VIP 交换
 + Virtual Network，虚拟网络
 + Virtual Machine，虚拟机
++ VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
++ VOL，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
++ Volume Licensing for Organizations，团体批量许可证；大量采购授权合约（VOL 或 VLO）
 
 ## W
 
