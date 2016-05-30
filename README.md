@@ -43,6 +43,7 @@
 
 + Cache/Caching，缓存
 + call stack，调用堆栈
++ Central Processing Unit，中央处理器（CPU）
 + certificate，（数字）证书
 + Certificate Authority，证书认证机构
 + channel，信道
@@ -75,6 +76,7 @@
 + cookie，Cookie
 + core，内核
 + corruption，损毁
++ CPU，中央处理器（Central Processing Unit）
 + crash，（程序）崩溃
 + crash dump，故障转储
 
@@ -108,6 +110,7 @@
 + entity，实体
 + erosion，侵蚀
 + exception handling，异常处理
++ Exclusive OR，异或（XOR）
 + explanatory figures，图示
 + extra large，特大型
 + extra small，特小型
@@ -117,6 +120,8 @@
 + failover，容错转移
 + failure domain，故障域
 + fat client，胖客户端
++ FDD，软盘（Floopy Disk Drive）
++ Floopy Disk Drive，软盘（FDD）
 + follow up，跟进
 + foreign key，外键
 + forward，转发
@@ -131,6 +136,8 @@
 ## H ##
 
 + handle，句柄
++ Hard Disk Drive，硬盘（HDD）
++ DHH，硬盘（Hard Disk Drive）
 + header，头；标头；表头
 + High Avaliability，高可用性
 + Homogeneous，同质化
@@ -174,7 +181,7 @@
 + linked resource，链接的资源
 + load-balancing，负载平衡
 + load balancer，负载平衡器
-+ log日志
++ log，日志
 + loose coupling，松散耦合
 
 ## M ##
@@ -215,11 +222,13 @@
 + Paas，平台即服务（Platform as a Service）
 + Page Blob，页 BLOB
 + partition，分区
-+ passive。被动（的）
++ passive，被动（的）
 + Pay as You Go，即用即付
++ PC，个人计算机（Personal Computer）
 + peek，查看
 + performance，性能
 + performance counter，性能计数器
++ Personal Computer，个人计算机（PC）
 + Pessimistic Concurrency，悲观并发控制
 + Platform as a Service，平台即服务（Paas）
 + Point-to-Site，点到站点
@@ -351,13 +360,28 @@
 + Web Role，网站角色
 + Web Service，网络服务
 + Web Sites，网站
++ Windows Internet Name Service，Windows Internet 命名服务（WINS）
++ Windows Management Instrumentation，Windows 管理规范（WMI）
++ WINS，Windows Internet 命名服务（Windows Internet Name Service）
++ WINS Proxy，WINS 代理
++ WINS Resource，WINS 资源
++ wireless communication，无线通讯
++ WMI，Windows 管理规范（Windows Management Instrumentation）
 + Worker Role，辅助角色
 + Workflow，工作流
++ workgroup，工作组
 
 ## X
+
++ X.509v3 certificate，X.509 证书
++ XOR，异或（Exclusive OR）
 
 ## Y
 
 ## Z
 
 + Zero-downtime Upgrade，零停机升级
++ zip disk，压缩磁盘
++ zone，区域
++ zone list，区域列表
++ zone transfer，区域传送
