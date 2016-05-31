@@ -1,6 +1,4 @@
-# computerese-cross-references
-计算机专业术语中英文对照
-
+# 计算机专业术语对照
 ## 0-9
 
 ## A ##
@@ -35,6 +33,7 @@
 + bottleneck，瓶颈
 + browser-server，浏览器-服务器
 + bug，缺陷
++ built-in，内置的，内建的；嵌入的；内置
 + business layer，业务层
 + business intelligence，商业智能
 + busy (status)，忙（状态）；繁忙（状态）
