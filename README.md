@@ -62,6 +62,8 @@
 + compatibility，兼容性
 + comcurrency，并发
 + concurrency mode，并发模式
++ conditional compilation，条件编译
++ conditional compilation statement，条件编译语句
 + configuration，配置
 + connection string，连接字符串
 + consistenct，一致性
