@@ -269,7 +269,7 @@
 + Reliability，可靠性
 + Relying Party，依赖方
 + reporting，报表
-+ Repository，存储库
++ Repository，存储库；仓储；仓库
 + request pipeline，请求管道
 + reserved，专属
 + reverse proxy module，反向代理模块
