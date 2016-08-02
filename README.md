@@ -1,53 +1,92 @@
 # 计算机专业术语对照
+
 ## 0-9
 
 ## A ##
 
-+ active directory，活动目录
++ access，获取，存取
++ acoustic coupler，声音耦合器
++ Active Directory，活动目录
++ ADSL，Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
 + affinity，绑定
 + affinity group，地缘组
 + agent，代理
++ agent-based interface，代理人界面
 + agility，敏捷性
++ AI，Artificial Intelligence，人工智能
++ air waves，无线电波
++ algorithm，算法
++ analog，模拟的
++ animation，动画
++ annotation，注解，注释
++ answering machine，电话应答机
++ antenna，天线
++ application，应用，应用程序，应用软件
 + application pool，应用程序池
++ architecture，体系机构，结构
 + architecture decay，架构腐坏
++ ARPA，Advanced Research Projects Agency，（美国国防部）高级研究计划署
++ ARPAnet，ARPA网
++ aspect ratio，屏幕高宽比
++ ATM，asynchronous transfer mode，异步传输模式
 + atomic opreation，原子操作
 + atomic transaction，原子事务
 + atomicity，原子性
 + augmented reality，增强实现
 + authentication，身份验证
 + authorization，授权
++ automation，自动化
 + autonomous，独立性
 + availability，可用性
 + availability set，可用性集
 
 ## B ##
 
++ backpane，底板
 + backward compatibility，向后兼容性
++ bandwidth，带宽
++ bar code，条形码
 + baseline，准线
++ baud，波特
 + bear，熊
 + behavior，行为
 + big data，大数据
++ binary，二进制的
++ binochlar，双目并用的
++ bit，比特
++ bitnik，比特族
 + blob，BLOB
 + block，阻断
 + block blob，块 BLOB
 + bottleneck，瓶颈
++ bps，bits per second，比特/秒
++ broadcast，（无线电或电视）广播
 + browser-server，浏览器-服务器
 + bug，缺陷
 + built-in，内置的，内建的；嵌入的；内置
 + business layer，业务层
 + business intelligence，商业智能
 + busy (status)，忙（状态）；繁忙（状态）
++ byte，字节
 
 ## C ##
 
++ cable，电缆
 + Cache/Caching，缓存
 + call stack，调用堆栈
++ carbon copy，复写本，副本；抄送（CC）
++ carriage return，回车
++ cell，单元
++ cellular telephone，移动电话
 + Central Processing Unit，中央处理器（CPU）
 + certificate，（数字）证书
 + Certificate Authority，证书认证机构
-+ channel，信道
++ channel，信道，频道
++ character，字符
 + check in，签入
 + check out，签出
++ chip，芯片
++ cipher，密码
 + claim，声明
 + client-server，客户端-服务器
 + clone，克隆，复制
@@ -55,7 +94,11 @@
 + cloud service，云服务
 + cluster，集群
 + clustered index，聚集索引
++ coaxial cable，同轴电缆
++ command，命令
 + command prompt，命令行提示
++ commingled bits，混合的比特
++ communication，通信
 + community，社区
 + committed，已提交（的）
 + common name，通用名称
@@ -64,7 +107,7 @@
 + concurrency mode，并发模式
 + conditional compilation，条件编译
 + conditional compilation statement，条件编译语句
-+ configuration，配置
++ configuration，配置，设置
 + connection string，连接字符串
 + consistenct，一致性
 + constructor，构造函数
@@ -74,12 +117,18 @@
 + continuous integration，持续集成
 + contribute，贡献
 + Contributor License Agreement，贡献者许可协议
++ convert，转换
 + cookie，Cookie
 + core，内核
 + corruption，损毁
 + CPU，中央处理器（Central Processing Unit）
 + crash，（程序）崩溃
 + crash dump，故障转储
++ CRT，cathode ray tube，阴极射线管
++ crytography，密码术
++ cursor，光标
++ cybraian，电脑族
++ cyberspace，电脑空间
 
 ## D ##
 
