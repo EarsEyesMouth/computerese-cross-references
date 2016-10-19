@@ -185,6 +185,8 @@
 
 ## G ##
 
++ GC root，GC 根对象
++ generator，生成器
 + Geo-Replication，地域复制
 + Geo Redundant，地域冗余
 
@@ -216,6 +218,10 @@
 + Intercept，截取
 + Internal Endpoint，内部端点
 + Isolation，隔离性
++ iterable，可迭代的
++ iteration，迭代
++ iterator，迭代器
++ iterator protocol，迭代器协议
 
 ## J ##
 
@@ -374,6 +380,7 @@
 + Subnet，子网
 + Sub-region，子地域
 + Subscription，订阅
++ syntactic sugar，语法糖
 
 ## T
 
@@ -415,6 +422,7 @@
 
 ## W
 
++ Weak Generational Hypothesis，弱分代假设
 + Wearable Device，可穿戴设备
 + Web Role，网站角色
 + Web Service，网络服务
