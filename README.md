@@ -4,6 +4,7 @@
 
 ## A ##
 
++ abstraction layer，抽象层
 + access，获取，存取
 + acoustic coupler，声音耦合器
 + Active Directory，活动目录
@@ -35,6 +36,7 @@
 + augmented reality，增强实现
 + authentication，身份验证
 + authorization，授权
++ automated unit testing，自动化单元测试
 + automation，自动化
 + autonomous，独立性
 + availability，可用性
@@ -60,12 +62,14 @@
 + block blob，块 BLOB
 + bottleneck，瓶颈
 + bps，bits per second，比特/秒
++ breakpoint，断点
 + broadcast，（无线电或电视）广播
 + browser-server，浏览器-服务器
 + bug，缺陷
 + built-in，内置的，内建的；嵌入的；内置
-+ business layer，业务层
 + business intelligence，商业智能
++ business layer，业务层
++ business logic layer，业务逻辑层
 + busy (status)，忙（状态）；繁忙（状态）
 + byte，字节
 
@@ -134,6 +138,7 @@
 ## D ##
 
 + dashboard，仪表盘
++ data access layer，数据访问层
 + data layer，数据层
 + data integrity，数据完整性
 + data mining，数据挖掘
@@ -385,8 +390,10 @@
 ## T
 
 + Table，表
++ TDD：测试驱动开发（test-driven development）
 + Tenant，租户
 + Terminus，端点
++ test-driven development，测试驱动开发（TDD）
 + Thin Client，瘦客户端
 + Thread，线程
 + Thread Pool，线程池
@@ -405,6 +412,7 @@
 
 + Ubiquitous Computing，普存计算
 + under-post，提交不足
++ unit of work，工作单元
 + Unit test，单元测试
 + Uncommitted，未提交（的）
 + Update Domain，更新域
