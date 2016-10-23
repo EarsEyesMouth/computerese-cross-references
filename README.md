@@ -23,6 +23,7 @@
 + answering machine，电话应答机
 + antenna，天线
 + application，应用，应用程序，应用软件
++ application life cycle，应用程序生命周期
 + application pool，应用程序池
 + architecture，体系机构，结构
 + architecture decay，架构腐坏
@@ -260,6 +261,7 @@
 + Merge，合并
 + Metadata，元数据
 + Middleware，中间件
++ Minimum Viable Product，最小化可行产品，MVP
 + Mobile Service，移动服务
 + Mock Object，模拟对象
 + Multitenancy，多租户
