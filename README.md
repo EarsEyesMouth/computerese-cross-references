@@ -53,6 +53,7 @@
 + baud，波特
 + bear，熊
 + behavior，行为
++ behavior preserving program transformations，行为保留式程序转换
 + big data，大数据
 + binary，二进制的
 + binochlar，双目并用的
@@ -100,6 +101,7 @@
 + cluster，集群
 + clustered index，聚集索引
 + coaxial cable，同轴电缆
++ CoC，更改开销（Cost of Change）
 + command，命令
 + command prompt，命令行提示
 + commingled bits，混合的比特
@@ -127,6 +129,7 @@
 + cookie，Cookie
 + core，内核
 + corruption，损毁
++ Cost of Change，更改开销（CoC）
 + CPU，中央处理器（Central Processing Unit）
 + crash，（程序）崩溃
 + crash dump，故障转储
@@ -393,6 +396,7 @@
 
 + Table，表
 + TDD：测试驱动开发（test-driven development）
++ technical bankruptcy，技术破产
 + Tenant，租户
 + Terminus，端点
 + test-driven development，测试驱动开发（TDD）
