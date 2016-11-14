@@ -2,12 +2,13 @@
 
 
 
-## A ##
+## A
 
 + abstraction layer，抽象层
 + access，获取，存取
 + acoustic coupler，声音耦合器
 + Active Directory，活动目录
++ Add Parameter，添加参数
 + ADSL，Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
 + affinity，绑定
 + affinity group，地缘组
@@ -43,7 +44,7 @@
 + availability，可用性
 + availability set，可用性集
 
-## B ##
+## B
 
 + backpane，底板
 + backward compatibility，向后兼容性
@@ -53,7 +54,7 @@
 + baud，波特
 + bear，熊
 + behavior，行为
-+ behavior preserving program transformations，行为保留式程序转换
++ behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
 + big data，大数据
 + binary，二进制的
 + binochlar，双目并用的
@@ -75,7 +76,7 @@
 + busy (status)，忙（状态）；繁忙（状态）
 + byte，字节
 
-## C ##
+## C
 
 + cable，电缆
 + Cache/Caching，缓存
@@ -87,6 +88,10 @@
 + Central Processing Unit，中央处理器（CPU）
 + certificate，（数字）证书
 + Certificate Authority，证书认证机构
++ Change Bidirectional Association to Unidirectional，将双向关联改为单向关联<sup>1</sup>
++ Change Reference to Value，将引用对象改为值对象<sup>1</sup>
++ Change Unidirectional Association to Bidirectional，将单向关联改为双向关联<sup>1</sup>
++ Change Value to Reference，将值对象改为引用对象<sup>1</sup>
 + channel，信道，频道
 + character，字符
 + check in，签入
@@ -102,6 +107,7 @@
 + clustered index，聚集索引
 + coaxial cable，同轴电缆
 + CoC，更改开销（Cost of Change）
++ Collapse Hierarchy，折叠继承关系<sup>1</sup>
 + command，命令
 + command prompt，命令行提示
 + commingled bits，混合的比特
@@ -117,6 +123,8 @@
 + conditional compilation statement，条件编译语句
 + configuration，配置，设置
 + connection string，连接字符串
++ Consolidate Conditional Expression，合并条件表达式<sup>1</sup>
++ Consolidate Duplicate Conditional Fragments，合并重复的条件片段<sup>1</sup>
 + consistenct，一致性
 + constructor，构造函数
 + container，容器
@@ -126,6 +134,7 @@
 + contribute，贡献
 + Contributor License Agreement，贡献者许可协议
 + convert，转换
++ Convert Procedural Design to Objects，将过程化设计转化为对象设计<sup>1</sup>
 + cookie，Cookie
 + core，内核
 + corruption，损毁
@@ -139,13 +148,14 @@
 + cybraian，电脑族
 + cyberspace，电脑空间
 
-## D ##
+## D
 
 + dashboard，仪表盘
 + data access layer，数据访问层
 + data layer，数据层
 + data integrity，数据完整性
 + data mining，数据挖掘
++ Decompose Conditional，分解条件表达式<sup>1</sup>
 + dependenct injection，依赖注入（DI）
 + deployment，部署
 + dequeue，出列
@@ -158,15 +168,19 @@
 + disk，磁盘
 + distributed system，分布式系统
 + dummy function，虚构函数
++ Duplicate Observed Data，复制“被监视数据”<sup>1</sup>
 + durability，持久性
 
-## E ##
+## E
 
 + EAP，早期评估版本（Early Assessment Program）
 + Early Assessment Program，早期评估版本（EAP）
 + Egress，流出
 + elasticity，弹性
 + Element (XML)，元素
++ Encapsulate Collection，封装集合<sup>1</sup>
++ Encapsulate Downset，封装向下转型<sup>1</sup>
++ Encapsulate Field，封装字段<sup>1</sup>
 + endpoint，端点
 + enqueue，入列；加入队列
 + entity，实体
@@ -176,8 +190,14 @@
 + explanatory figures，图示
 + extra large，特大型
 + extra small，特小型
++ Extract Class，提炼类<sup>1</sup>
++ Extract Hierarchy，提炼继承体系<sup>1</sup>
++ Extract Inerface，提炼接口<sup>1</sup>
++ Extract Method，提炼函数<sup>1</sup>
++ Extract Subclass，提炼子类<sup>1</sup>
++ Extract Superclass，提炼超类<sup>1</sup>
 
-## F ##
+## F
 
 + failover，容错转移
 + failure domain，故障域
@@ -186,32 +206,35 @@
 + Floopy Disk Drive，软盘（FDD）
 + follow up，跟进
 + foreign key，外键
++ Form Template Method，塑造模板函数<sup>1</sup>
 + forward，转发
 + FPP，零售版（Full Packaged Product）
 + free，免费
 + full-duplex，全双工
 + Full Packaged Product，零售版（FPP）
 
-## G ##
+## G
 
 + GC root，GC 根对象
 + generator，生成器
 + Geo-Replication，地域复制
 + Geo Redundant，地域冗余
 
-## H ##
+## H
 
 + handle，句柄
 + Hard Disk Drive，硬盘（HDD）
-+ DHH，硬盘（Hard Disk Drive）
++ HDD，硬盘（Hard Disk Drive）
 + header，头；标头；表头
++ Hide Delegate，隐藏“委托关系”<sup>1</sup>
++ Hide Method，隐藏函数<sup>1</sup>
 + High Avaliability，高可用性
 + Homogeneous，同质化
 + Horizontal Scale，水平缩放
 + Hosting，宿主
 + Hybrid Cloud，混合云
 
-## I ##
+## I
 
 + Iaas，设施即服务（Infrastructure as a Service）
 + Idempotent Operation，幂等操作
@@ -221,27 +244,36 @@
 + Infrastructure as a Service，设施即服务（Iaas）
 + ingesting，摄取
 + ingress，流入
++ Inline Class，将类内联化<sup>1</sup>
++ Inline Method，内联函数<sup>1</sup>
++ Inline Temp，内联临时变量<sup>1</sup>
 + input endpoint，输入端点
 + instance，实例
 + Instance InputEndpoint，实例输入端点
 + Intercept，截取
 + Internal Endpoint，内部端点
++ Introduce Assertion，引入断言<sup>1</sup>
++ Introduce Explaining Variable，引入解释性变量<sup>1</sup>
++ Introduce Foreign Method，引入外加函数<sup>1</sup>
++ Introduce Local Extension，引入本地扩展<sup>1</sup>
++ Introduce Null Object，引入 Null 对象<sup>1</sup>
++ Introduce Parameter Object，引入参数对象<sup>1</sup>
 + Isolation，隔离性
 + iterable，可迭代的
 + iteration，迭代
 + iterator，迭代器
 + iterator protocol，迭代器协议
 
-## J ##
+## J
 
 + Job，作业
 
-## K ##
+## K
 
 + Key，密钥
 + Key-Value Pair，键-值对
 
-## L ##
+## L
 
 + Large，大型
 + Legacy system，遗留系统
@@ -254,7 +286,7 @@
 + log，日志
 + loose coupling，松散耦合
 
-## M ##
+## M
 
 + Mainframe，主机
 + Maintainability，可维护性
@@ -267,11 +299,13 @@
 + Minimum Viable Product，最小化可行产品，MVP
 + Mobile Service，移动服务
 + Mock Object，模拟对象
++ Move Field，搬移字段<sup>1</sup>
++ Move Method，搬移函数<sup>1</sup>
 + Multitenancy，多租户
 + Multitier Architecture，多层体系结构
 + Multi-factor Authentication，多重验证
 
-## N ##
+## N
 
 + Namespace，命名空间，名称空间
 + Non-clustered Index，非聚集索引
@@ -281,7 +315,7 @@
 + notification hub，通知中心
 + N-Tier，N 层（结构）
 
-## O ##
+## O
 
 + On-demand (media)，点播（媒体）
 + Optimistic Concurrency，乐观并发控制
@@ -292,6 +326,7 @@
 
 + Paas，平台即服务（Platform as a Service）
 + Page Blob，页 BLOB
++ Parameterize Method，令函数携带参数<sup>1</sup>
 + partition，分区
 + passive，被动（的）
 + Pay as You Go，即用即付
@@ -305,6 +340,7 @@
 + Point-to-Site，点到站点
 + polling，轮询
 + presentation layer，表现层
++ Preserve Whole Object，保持对象完整<sup>1</sup>
 + private cloud，私有云
 + priority queue，优先级队列
 + probe，探测器
@@ -313,7 +349,13 @@
 + protocol，协议
 + proxy，代理
 + public cloud，公有云
++ Pull Up Constructor Body，构造函数本体上移<sup>1</sup>
++ Pull Up Field，字段上移<sup>1</sup>
++ Pull Up Method，函数上移<sup>1</sup>
 + push，推送
++ Push Down Field，字段下移<sup>1</sup>
++ Push Down Method，函数下移<sup>1</sup>
+
 
 ## Q
 
@@ -334,6 +376,31 @@
 + Relevancy，适切性
 + Reliability，可靠性
 + Relying Party，依赖方
++ Remove Assignments to Parameters，移除对参数的赋值<sup>1</sup>
++ Remove Control Flag，移除控制标记<sup>1</sup>
++ Remove Middle Man，移除中间人<sup>1</sup>
++ Remove Parameter，移除参数<sup>1</sup>
++ Remove Setting Method，移除配置函数<sup>1</sup>
++ Rename Method，函数改名<sup>1</sup>
++ Replace Array with Object，以对象取代数组<sup>1</sup>
++ Replace Conditional with Polymorphism，以多态取代条件表达式<sup>1</sup>
++ Replace Constructor with Factory Method，以工厂函数取代构造函数<sup>1</sup>
++ Replace Data Value with Object，以对象取代数据值<sup>1</sup>
++ Replace Delegation with Inheritance，以继承取代委托<sup>1</sup>
++ Replace Error　Code with Exception，以异常取代错误码<sup>1</sup>
++ Replace Exception with Test，以测试取代异常<sup>1</sup>
++ Replace Inheritance with Delegation，以委托取代继承<sup>1</sup>
++ Replace Magic Number with Symbolic Constant，以字面常量取代魔法数<sup>1</sup>
++ Replace Method with Method Object，以函数对象取代函数<sup>1</sup>
++ Replace Nested Conditional with Guard Clauses，以卫语句取代嵌套条件表达式<sup>1</sup>
++ Replace Parameter with Explicit Methods，以明确函数取代参数<sup>1</sup>
++ Replace Parameter with Methods，以函数取代参数<sup>1</sup>
++ Replace Record with Data Class，以数据类取代记录<sup>1</sup>
++ Replace Subclass with Fields，以字段取代子类<sup>1</sup>
++ Replace Temp with Query，以查询取代临时变量<sup>1</sup>
++ Replace Type Code with Class，以类取代类型码<sup>1</sup>
++ Replace Type Code with State/Strategy，以 State/Strategy 取代类型码<sup>1</sup>
++ Replace Type Code with Subclass，以子类取代类型码<sup>1</sup>
 + reporting，报表
 + Repository，存储库；仓储；仓库
 + request pipeline，请求管道
@@ -361,7 +428,10 @@
 + Security，安全（性）
 + Security Socket Layer，安全套接层
 + Security Token，安全令牌
++ Self Encapsulate Field，自封装字段<sup>1</sup>
 + Self-signed Certificate，自签名证书
++ Seqarate Domain from Presentation，将领域和表述/显示分离<sup>1</sup>
++ Seqarate Query from Modifier，将查询函数和修改函数分离<sup>1</sup>
 + Serializable，可序列化
 + Server Affinity，服务器绑定
 + Service Bus，服务总线
@@ -376,6 +446,7 @@
 + Small，小型
 + snapshot，快照
 + Software as a Service，软件即服务（Saas）
++ Split Temporary Variable，分解临时变量<sup>1</sup>
 + SQL Database，SQL 数据库
 + Staging，过渡（环境）
 + Stateless，无状态
@@ -390,12 +461,14 @@
 + Subnet，子网
 + Sub-region，子地域
 + Subscription，订阅
++ Substitute Algorithm，替换算法<sup>1</sup>
 + syntactic sugar，语法糖
 
 ## T
 
 + Table，表
 + TDD：测试驱动开发（test-driven development）
++ Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
 + technical bankruptcy，技术破产
 + Tenant，租户
 + Terminus，端点
@@ -407,12 +480,14 @@
 + Throttle，节流；限速
 + Timestamp，时间戳
 + Throughput，吞吐量
++ TNP，交通网络提供者（Transportation Network Providers）
 + Topic，主题
 + Topology，拓扑结构
 + Token，令牌
 + (Code) Tracing，（代码）追踪
 + Transaction，事务
 + Transient Error，瞬时错误
++ Transportation Network Providers，交通网络提供者（TNP）
 
 ## U
 
@@ -466,3 +541,7 @@
 + zone，区域
 + zone list，区域列表
 + zone transfer，区域传送
+
+# 注释
+
+[1] 重构列表，摘自《重构》一书。
