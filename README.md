@@ -31,6 +31,7 @@
 + ARPA，Advanced Research Projects Agency，（美国国防部）高级研究计划署
 + ARPAnet，ARPA网
 + aspect ratio，屏幕高宽比
++ assembly，程序集
 + ATM，asynchronous transfer mode，异步传输模式
 + atomic opreation，原子操作
 + atomic transaction，原子事务
@@ -50,8 +51,10 @@
 + backward compatibility，向后兼容性
 + bandwidth，带宽
 + bar code，条形码
++ Base Class Library，基类库（BCL）
 + baseline，准线
 + baud，波特
++ BCL，基类库（Base Class Library）
 + bear，熊
 + behavior，行为
 + behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
@@ -81,6 +84,8 @@
 + cable，电缆
 + Cache/Caching，缓存
 + call stack，调用堆栈
++ callout box，标注框
++ camelCase，camel 大小写
 + carbon copy，复写本，副本；抄送（CC）
 + carriage return，回车
 + cell，单元
@@ -99,24 +104,34 @@
 + chip，芯片
 + cipher，密码
 + claim，声明
++ class definition，类定义
++ CLI，公共语言基础结构（Common Language Infrastructure）
 + client-server，客户端-服务器
 + clone，克隆，复制
 + cloud computing，云计算
 + cloud service，云服务
++ CLR，公共语言运行时（Common Language Runtime）
++ CLS，公共语言规范（Common Language Specification）
 + cluster，集群
 + clustered index，聚集索引
 + coaxial cable，同轴电缆
 + CoC，更改开销（Cost of Change）
 + Collapse Hierarchy，折叠继承关系<sup>1</sup>
++ comcurrency，并发
 + command，命令
 + command prompt，命令行提示
 + commingled bits，混合的比特
 + communication，通信
 + community，社区
 + committed，已提交（的）
++ Common Intermediate Language，公共中间语言
++ Common Language Infrastructure，公共语言基础结构（CLI）
++ Common Language Runtime，公共语言运行时（CLR）
++ Common Language Specification，公共语言规范（CLS）
++ Common Type System，公共类型系统（CTS）
 + common name，通用名称
 + compatibility，兼容性
-+ comcurrency，并发
++ composite formatting，复合格式化
 + concurrency conflicts，并发冲突
 + concurrency mode，并发模式
 + conditional compilation，条件编译
@@ -130,6 +145,7 @@
 + container，容器
 + content，内容
 + context，上下文
++ contextual keyword，上下文关键字
 + continuous integration，持续集成
 + contribute，贡献
 + Contributor License Agreement，贡献者许可协议
@@ -144,6 +160,7 @@
 + crash dump，故障转储
 + CRT，cathode ray tube，阴极射线管
 + crytography，密码术
++ CTS，公共类型系统（Common Type System）
 + cursor，光标
 + cybraian，电脑族
 + cyberspace，电脑空间
@@ -155,6 +172,7 @@
 + data layer，数据层
 + data integrity，数据完整性
 + data mining，数据挖掘
++ declarative programming，宣告式编程
 + Decompose Conditional，分解条件表达式<sup>1</sup>
 + dependenct injection，依赖注入（DI）
 + deployment，部署
@@ -167,9 +185,12 @@
 + discussion forum，论坛
 + disk，磁盘
 + distributed system，分布式系统
++ DLL，动态链接库（Dynamic Link Library）
 + dummy function，虚构函数
++ dump，转储
 + Duplicate Observed Data，复制“被监视数据”<sup>1</sup>
 + durability，持久性
++ Dynamic Link Library，动态链接库（DLL）
 
 ## E
 
@@ -188,6 +209,7 @@
 + exception handling，异常处理
 + Exclusive OR，异或（XOR）
 + explanatory figures，图示
++ Extensible Markup Language，可扩展标记语言（XML）
 + extra large，特大型
 + extra small，特小型
 + Extract Class，提炼类<sup>1</sup>
@@ -207,6 +229,8 @@
 + follow up，跟进
 + foreign key，外键
 + Form Template Method，塑造模板函数<sup>1</sup>
++ format item，格式项
++ format string，格式字符串
 + forward，转发
 + FPP，零售版（Full Packaged Product）
 + free，免费
@@ -229,6 +253,7 @@
 + Hide Delegate，隐藏“委托关系”<sup>1</sup>
 + Hide Method，隐藏函数<sup>1</sup>
 + High Avaliability，高可用性
++ high surrogate，高位代理项
 + Homogeneous，同质化
 + Horizontal Scale，水平缩放
 + Hosting，宿主
@@ -239,7 +264,9 @@
 + Iaas，设施即服务（Infrastructure as a Service）
 + Idempotent Operation，幂等操作
 + Identity Provider，身份提供方
++ IL，中间语言（intermediate language）
 + image，映像
++ immersion approach，沉浸法
 + index，索引
 + Infrastructure as a Service，设施即服务（Iaas）
 + ingesting，摄取
@@ -250,7 +277,9 @@
 + input endpoint，输入端点
 + instance，实例
 + Instance InputEndpoint，实例输入端点
++ instantiation，实例化
 + Intercept，截取
++ intermediate language，中间语言（IL）
 + Internal Endpoint，内部端点
 + Introduce Assertion，引入断言<sup>1</sup>
 + Introduce Explaining Variable，引入解释性变量<sup>1</sup>
@@ -267,6 +296,7 @@
 ## J
 
 + Job，作业
++ just-in-time compilation，即时编译，JIT 编译
 
 ## K
 
@@ -281,21 +311,27 @@
 + lifetime，生命周期
 + link，链接
 + linked resource，链接的资源
++ literal，字面量、文字常量、直接量
 + load-balancing，负载平衡
 + load balancer，负载平衡器
 + log，日志
 + loose coupling，松散耦合
++ low surrogate，低位代理项
 
 ## M
 
 + Mainframe，主机
 + Maintainability，可维护性
++ managed code，托管代码
++ managed execution，托管执行
 + Management Key，管理密钥
++ manifest，清单
 + Media Service，媒体服务
 + Medium，中型
 + Merge，合并
 + Metadata，元数据
 + Middleware，中间件
++ mind map，思维导图、脑图、心智图
 + Minimum Viable Product，最小化可行产品，MVP
 + Mobile Service，移动服务
 + Mock Object，模拟对象
@@ -308,6 +344,7 @@
 ## N
 
 + Namespace，命名空间，名称空间
++ native code，本机代码
 + Non-clustered Index，非聚集索引
 + node，节点
 + normalize，规格化
@@ -317,8 +354,10 @@
 
 ## O
 
++ obfuscator，混淆器
 + On-demand (media)，点播（媒体）
 + Optimistic Concurrency，乐观并发控制
++ overriding，重写
 + Overview，概览
 + over-post，过度提交
 
@@ -328,6 +367,7 @@
 + Page Blob，页 BLOB
 + Parameterize Method，令函数携带参数<sup>1</sup>
 + partition，分区
++ PascalCase，Pascal 大小写
 + passive，被动（的）
 + Pay as You Go，即用即付
 + PC，个人计算机（Personal Computer）
@@ -458,6 +498,7 @@
 + Site-to-Site，站点到站点
 + Storage，存储
 + Storage Account，存储账户
++ structure，结构
 + Subnet，子网
 + Sub-region，子地域
 + Subscription，订阅
@@ -484,6 +525,7 @@
 + Topic，主题
 + Topology，拓扑结构
 + Token，令牌
++ TPL，任务并行库
 + (Code) Tracing，（代码）追踪
 + Transaction，事务
 + Transient Error，瞬时错误
@@ -492,17 +534,21 @@
 ## U
 
 + Ubiquitous Computing，普存计算
++ Uncommitted，未提交（的）
++ Update Domain，更新域
 + under-post，提交不足
 + unit of work，工作单元
 + Unit test，单元测试
-+ Uncommitted，未提交（的）
-+ Update Domain，更新域
++ unmanaged code，非托管代码
 
 ## V
 
++ versionable interaction contract，可以进行版本控制的交互契约
 + Vertical Scale，垂直缩放
++ VES，虚拟执行系统（Visual Execution System）
 + VIP，虚拟 IP（或不译）
 + VIP Swap，VIP 交换
++ Visual Execution System，虚拟执行系统（VES）
 + Virtual Network，虚拟网络
 + Virtual Machine，虚拟机
 + VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
@@ -511,13 +557,18 @@
 
 ## W
 
++ WCF，分布式通信（Windows Comminication Foundation）
 + Weak Generational Hypothesis，弱分代假设
 + Wearable Device，可穿戴设备
 + Web Role，网站角色
 + Web Service，网络服务
 + Web Sites，网站
++ WF，工作流（WIndows Workflow）
++ Windows Comminication Foundation，分布式通信（WCF）
 + Windows Internet Name Service，Windows Internet 命名服务（WINS）
 + Windows Management Instrumentation，Windows 管理规范（WMI）
++ Windows Presentation Foundation，富客户端表示（WPF）
++ WIndows Workflow，工作流（WF）
 + WINS，Windows Internet 命名服务（Windows Internet Name Service）
 + WINS Proxy，WINS 代理
 + WINS Resource，WINS 资源
@@ -526,10 +577,12 @@
 + Worker Role，辅助角色
 + Workflow，工作流
 + workgroup，工作组
++ WPF，富客户端表示（Windows Presentation Foundation）
 
 ## X
 
 + X.509v3 certificate，X.509 证书
++ XML，可扩展标记语言（Extensible Markup Language）
 + XOR，异或（Exclusive OR）
 
 ## Y
