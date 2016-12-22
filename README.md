@@ -548,7 +548,7 @@
 + VES，虚拟执行系统（Visual Execution System）
 + VIP，虚拟 IP（或不译）
 + VIP Swap，VIP 交换
-+ Visual Execution System，虚拟执行系统（VES）
++ Virtual Execution System，虚拟执行系统（VES）
 + Virtual Network，虚拟网络
 + Virtual Machine，虚拟机
 + VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
