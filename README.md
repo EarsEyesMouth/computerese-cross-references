@@ -67,6 +67,7 @@
 + block，阻断
 + block blob，块 BLOB
 + bottleneck，瓶颈
++ box，装箱
 + bps，bits per second，比特/秒
 + breakpoint，断点
 + broadcast，（无线电或电视）广播
@@ -224,6 +225,7 @@
 + failover，容错转移
 + failure domain，故障域
 + fat client，胖客户端
++ FCL，.NET Framework 类库（Framework Class Library）
 + FDD，软盘（Floopy Disk Drive）
 + Floopy Disk Drive，软盘（FDD）
 + follow up，跟进
@@ -233,6 +235,7 @@
 + format string，格式字符串
 + forward，转发
 + FPP，零售版（Full Packaged Product）
++ Framework Class Library，.NET Framework 类库（FCL）
 + free，免费
 + full-duplex，全双工
 + Full Packaged Product，零售版（FPP）
@@ -536,6 +539,7 @@
 + Ubiquitous Computing，普存计算
 + Uncommitted，未提交（的）
 + Update Domain，更新域
++ unbox，拆箱
 + under-post，提交不足
 + unit of work，工作单元
 + Unit test，单元测试
