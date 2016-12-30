@@ -23,6 +23,7 @@
 + annotation，注解，注释
 + answering machine，电话应答机
 + antenna，天线
++ APM，异步编程模型（Asynchronous Programming Model）
 + application，应用，应用程序，应用软件
 + application life cycle，应用程序生命周期
 + application pool，应用程序池
@@ -32,6 +33,7 @@
 + ARPAnet，ARPA网
 + aspect ratio，屏幕高宽比
 + assembly，程序集
++ Asynchronous Programming Model，异步编程模型（APM） 
 + ATM，asynchronous transfer mode，异步传输模式
 + atomic opreation，原子操作
 + atomic transaction，原子事务
@@ -196,6 +198,7 @@
 ## E
 
 + EAP，早期评估版本（Early Assessment Program）
++ EAP，基于事件的异步模式（Event-based Asynchronous Pattern）
 + Early Assessment Program，早期评估版本（EAP）
 + Egress，流出
 + elasticity，弹性
@@ -207,6 +210,7 @@
 + enqueue，入列；加入队列
 + entity，实体
 + erosion，侵蚀
++ Event-based Asynchronous Pattern，基于事件的异步模式（EAP）
 + exception handling，异常处理
 + Exclusive OR，异或（XOR）
 + explanatory figures，图示
