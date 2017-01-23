@@ -8,6 +8,7 @@
 + access，获取，存取
 + acoustic coupler，声音耦合器
 + Active Directory，活动目录
++ Acyclic Dependencies Principle，非循环依赖原则（ADP）
 + Add Parameter，添加参数
 + ADSL，Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
 + affinity，绑定
@@ -38,6 +39,7 @@
 + atomic opreation，原子操作
 + atomic transaction，原子事务
 + atomicity，原子性
++ attribute，特性
 + augmented reality，增强实现
 + authentication，身份验证
 + authorization，授权
@@ -73,6 +75,8 @@
 + bps，bits per second，比特/秒
 + breakpoint，断点
 + broadcast，（无线电或电视）广播
++ Broken Hierarchy，支离破碎的层次结构<sup>2</sup>
++ Broken Modularization，拆散的模块化<sup>2</sup>
 + browser-server，浏览器-服务器
 + bug，缺陷
 + built-in，内置的，内建的；嵌入的；内置
@@ -117,6 +121,7 @@
 + CLS，公共语言规范（Common Language Specification）
 + cluster，集群
 + clustered index，聚集索引
++ co-occurring smells，同时出现的坏味<sup>2</sup>
 + coaxial cable，同轴电缆
 + CoC，更改开销（Cost of Change）
 + Collapse Hierarchy，折叠继承关系<sup>1</sup>
@@ -134,6 +139,7 @@
 + Common Type System，公共类型系统（CTS）
 + common name，通用名称
 + compatibility，兼容性
++ Component Object Model，组件对象模型（COM）
 + composite formatting，复合格式化
 + concurrency conflicts，并发冲突
 + concurrency mode，并发模式
@@ -161,22 +167,32 @@
 + CPU，中央处理器（Central Processing Unit）
 + crash，（程序）崩溃
 + crash dump，故障转储
++ cririque，评估
 + CRT，cathode ray tube，阴极射线管
++ cruft，残留
 + crytography，密码术
 + CTS，公共类型系统（Common Type System）
 + cursor，光标
 + cybraian，电脑族
 + cyberspace，电脑空间
++ Cyclic Hierarchy，循环层次结构<sup>2</sup>
++ Cyclically-dependent Modularization，循环依赖式模块化<sup>2</sup>
++ Cyclomatic complexity，圈复杂度
 
 ## D
 
 + dashboard，仪表盘
 + data access layer，数据访问层
++ data clumps，数据泥团<sup>2</sup>
++ Data Encryption Standard，数据加密标准（DES）
 + data layer，数据层
 + data integrity，数据完整性
 + data mining，数据挖掘
++ Data Transfer Object，数据传输对象（DTO）
 + declarative programming，宣告式编程
 + Decompose Conditional，分解条件表达式<sup>1</sup>
++ Deep Hierarchy，过深的层次结构<sup>2</sup>
++ Deficient Encapsulation，不充分的封装<sup>2</sup>
 + dependenct injection，依赖注入（DI）
 + deployment，部署
 + dequeue，出列
@@ -189,8 +205,10 @@
 + disk，磁盘
 + distributed system，分布式系统
 + DLL，动态链接库（Dynamic Link Library）
++ DRY 原则，不自我重复原则（Don't Repeat Yourself）
 + dummy function，虚构函数
 + dump，转储
++ Duplicate Abstraction，重复的抽象<sup>2</sup>
 + Duplicate Observed Data，复制“被监视数据”<sup>1</sup>
 + durability，持久性
 + Dynamic Link Library，动态链接库（DLL）
@@ -228,6 +246,8 @@
 
 + failover，容错转移
 + failure domain，故障域
++ fan-in，扇入
++ fan-out，扇出
 + fat client，胖客户端
 + FCL，.NET Framework 类库（Framework Class Library）
 + FDD，软盘（Floopy Disk Drive）
@@ -246,6 +266,8 @@
 
 ## G
 
++ Garbage Collection，垃圾回收器（GC）
++ GC Heap，垃圾回收堆
 + GC root，GC 根对象
 + generator，生成器
 + Geo-Replication，地域复制
@@ -262,8 +284,10 @@
 + High Avaliability，高可用性
 + high surrogate，高位代理项
 + Homogeneous，同质化
++ hook point，挂接点
 + Horizontal Scale，水平缩放
 + Hosting，宿主
++ Hub-like Modularization，轮毂式模块化<sup>2</sup>
 + Hybrid Cloud，混合云
 
 ## I
@@ -274,6 +298,8 @@
 + IL，中间语言（intermediate language）
 + image，映像
 + immersion approach，沉浸法
++ Imperative Abstraction，命令式抽象<sup>2</sup>
++ Incomplete Abstraction，不完整的抽象<sup>2</sup>
 + index，索引
 + Infrastructure as a Service，设施即服务（Iaas）
 + ingesting，摄取
@@ -282,9 +308,11 @@
 + Inline Method，内联函数<sup>1</sup>
 + Inline Temp，内联临时变量<sup>1</sup>
 + input endpoint，输入端点
++ Interaction-based testing，基于交互的测试
 + instance，实例
 + Instance InputEndpoint，实例输入端点
 + instantiation，实例化
++ Insufficient Modularization，不充分的模块化<sup>2</sup>
 + Intercept，截取
 + intermediate language，中间语言（IL）
 + Internal Endpoint，内部端点
@@ -309,10 +337,13 @@
 
 + Key，密钥
 + Key-Value Pair，键-值对
++ KISS 原则，保持简单原则（KeepIt Simple Silly）
 
 ## L
 
++ Language Integrated Query，语言集成查询（LINQ）
 + Large，大型
++ Leaky Encapsulation，泄露的封装<sup>2</sup>
 + Legacy system，遗留系统
 + license，许可证
 + lifetime，生命周期
@@ -321,9 +352,11 @@
 + literal，字面量、文字常量、直接量
 + load-balancing，负载平衡
 + load balancer，负载平衡器
++ LOC，代码行数
 + log，日志
 + loose coupling，松散耦合
 + low surrogate，低位代理项
++ LSP，里氏替换原则
 
 ## M
 
@@ -340,11 +373,16 @@
 + Middleware，中间件
 + mind map，思维导图、脑图、心智图
 + Minimum Viable Product，最小化可行产品，MVP
++ Missing Abstraction，缺失抽象<sup>2</sup>
++ Missing Encapsulation，缺失的封装<sup>2</sup>
++ Missing Hierarchy，缺失层次结构<sup>2</sup>
 + Mobile Service，移动服务
 + Mock Object，模拟对象
 + Move Field，搬移字段<sup>1</sup>
 + Move Method，搬移函数<sup>1</sup>
 + Multitenancy，多租户
++ Multifaced Abstraction，多方面抽象<sup>2</sup>
++ Multipath Hierarchy，多路径层次结构<sup>2</sup>
 + Multitier Architecture，多层体系结构
 + Multi-factor Authentication，多重验证
 
@@ -363,7 +401,10 @@
 
 + obfuscator，混淆器
 + On-demand (media)，点播（媒体）
++ Open Closed Principle，开闭原则（OCP）
++ Open System Interconnection，开放式系统互联（OSI）
 + Optimistic Concurrency，乐观并发控制
++ Ordering Principal，良序原则
 + overriding，重写
 + Overview，概览
 + over-post，过度提交
@@ -383,11 +424,16 @@
 + performance counter，性能计数器
 + Personal Computer，个人计算机（PC）
 + Pessimistic Concurrency，悲观并发控制
++ PHAME，由 Booch 提出的对象模型的 4 个主要元素的设计规则的统称，即 Principle of Hierarchy, Abstraction, Modularization, and Encapsulation，层次结构、抽象、模块化与封装原则
++ placeholder，占位符
 + Platform as a Service，平台即服务（Paas）
 + Point-to-Site，点到站点
 + polling，轮询
++ post-initialization，后初始化
++ pre-initialization，预初始化
 + presentation layer，表现层
 + Preserve Whole Object，保持对象完整<sup>1</sup>
++ primitive obsession，基本类型偏执<sup>2</sup>
 + private cloud，私有云
 + priority queue，优先级队列
 + probe，探测器
@@ -415,10 +461,12 @@
 + Ready (status)，就绪（状态）
 + real-time，即时、实时
 + real-time discussions，即时讨论、实时讨论
++ Rebellious Hierarchy，叛逆性层次结构<sup>2</sup>
 + Redundancy，冗余
 + Redundant，冗余（的）
 + Refactor，重构
 + region，地域
++ reification，具体化
 + relay，中继
 + Relevancy，适切性
 + Reliability，可靠性
@@ -472,6 +520,7 @@
 + Scale Up，向上缩放
 + Schema (database)，架构（数据）
 + Schema (xml)，架构（xml）
++ Secure Socket Layer，安全套接层（SSL）
 + Security，安全（性）
 + Security Socket Layer，安全套接层
 + Security Token，安全令牌
@@ -496,15 +545,19 @@
 + Split Temporary Variable，分解临时变量<sup>1</sup>
 + SQL Database，SQL 数据库
 + Staging，过渡（环境）
++ State-based testing，基于状态的测试
 + Stateless，无状态
 + Sticky Session，黏性会话
 + Stickyness，黏性；黏度
 + Sign in，登录
 + Sign out，注销
++ Single responsibility principle，单一职责原则（SRP）
 + Site，站点
 + Site-to-Site，站点到站点
++ Speculative Hierarchy，凭空想象的层次结构<sup>2</sup>
 + Storage，存储
 + Storage Account，存储账户
++ Stream，流
 + structure，结构
 + Subnet，子网
 + Sub-region，子地域
@@ -515,14 +568,19 @@
 ## T
 
 + Table，表
-+ TDD：测试驱动开发（test-driven development）
++ TAP, ，基于任务的异步模式
++ Task-based Asynchronous Pattern，基于任务的异步模式
++ TDD,测试驱动开发（Test-Driven Development）
 + Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
 + technical bankruptcy，技术破产
 + Tenant，租户
 + Terminus，端点
-+ test-driven development，测试驱动开发（TDD）
++ test doubles，测试替身
++ Test-Driven Development，测试驱动开发（TDD）
 + Thin Client，瘦客户端
 + Thread，线程
++ Thread Environment Block，线程环境块
++ Thread Kernel Object，线程内核对象
 + Thread Pool，线程池
 + Thread Starvation，线程饥荒
 + Throttle，节流；限速
@@ -545,15 +603,23 @@
 + Update Domain，更新域
 + unbox，拆箱
 + under-post，提交不足
++ Unexploited Encapsulation，未利用封装<sup>2</sup>
++ Unfactored Hierarchy，未归并的层次结构<sup>2</sup>
 + unit of work，工作单元
 + Unit test，单元测试
 + unmanaged code，非托管代码
++ Unnecessary Abstract，不必要的抽象<sup>2</sup>
++ Unnecessary Hierarchy，不必要的层次结构<sup>2</sup>
++ Unutilized Abstraction，未用的抽象<sup>2</sup>
++ User Mode Stack，用户模式栈
 
 ## V
 
++ Variation Encapsulation Principle，变化封装原则（VEP）
 + versionable interaction contract，可以进行版本控制的交互契约
 + Vertical Scale，垂直缩放
 + VES，虚拟执行系统（Visual Execution System）
++ viscosity，粘滞性
 + VIP，虚拟 IP（或不译）
 + VIP Swap，VIP 交换
 + Virtual Execution System，虚拟执行系统（VES）
@@ -571,7 +637,9 @@
 + Web Role，网站角色
 + Web Service，网络服务
 + Web Sites，网站
++ Weighted Method per Class，类累计圈复杂度（WMC）
 + WF，工作流（WIndows Workflow）
++ Wide Hierarchy，过宽的层次结构<sup>2</sup>
 + Windows Comminication Foundation，分布式通信（WCF）
 + Windows Internet Name Service，Windows Internet 命名服务（WINS）
 + Windows Management Instrumentation，Windows 管理规范（WMI）
@@ -594,6 +662,7 @@
 + XOR，异或（Exclusive OR）
 
 ## Y
++ YAGNI 原则，不需要原则（You Aren't Gonna Need It）
 
 ## Z
 
@@ -606,3 +675,4 @@
 # 注释
 
 [1] 重构列表，摘自《重构》一书。
+[2] 坏味道列表，摘自《软件设计重构》一书。
