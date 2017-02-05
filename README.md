@@ -62,6 +62,7 @@
 + bear，熊
 + behavior，行为
 + behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
++ Big Ball of Mud，大泥球（BBM）
 + big data，大数据
 + binary，二进制的
 + binochlar，双目并用的
@@ -192,12 +193,14 @@
 + declarative programming，宣告式编程
 + Decompose Conditional，分解条件表达式<sup>1</sup>
 + Deep Hierarchy，过深的层次结构<sup>2</sup>
++ Defensive Programming，防御式编程
 + Deficient Encapsulation，不充分的封装<sup>2</sup>
 + dependenct injection，依赖注入（DI）
 + deployment，部署
 + dequeue，出列
 + derives from 继承
 + device，设备
++ DfT，为可测试性而设计
 + DI，依赖注入（dependenct injection）
 + diagnostics，诊断
 + directive，指令
@@ -205,7 +208,7 @@
 + disk，磁盘
 + distributed system，分布式系统
 + DLL，动态链接库（Dynamic Link Library）
-+ DRY 原则，不自我重复原则（Don't Repeat Yourself）
++ DRY 原则，不自我重复原则（Don't Repeat Yourself），“不要重复你自己<sup>3</sup>”
 + dummy function，虚构函数
 + dump，转储
 + Duplicate Abstraction，重复的抽象<sup>2</sup>
@@ -337,7 +340,7 @@
 
 + Key，密钥
 + Key-Value Pair，键-值对
-+ KISS 原则，保持简单原则（KeepIt Simple Silly）
++ KISS 原则，保持简单原则（KeepIt Simple Silly），“简单是一切之本<sup>3</sup>”
 
 ## L
 
@@ -401,6 +404,8 @@
 
 + obfuscator，混淆器
 + On-demand (media)，点播（媒体）
++ Once and Only Once，一次且仅一次<sup>3</sup>(OAOO)
++ One rule, one place，一个规则，实现一次
 + Open Closed Principle，开闭原则（OCP）
 + Open System Interconnection，开放式系统互联（OSI）
 + Optimistic Concurrency，乐观并发控制
@@ -459,6 +464,7 @@
 
 + Rack，机架
 + Ready (status)，就绪（状态）
++ Rapid Application Development，快速应用程序开发（RAD）
 + real-time，即时、实时
 + real-time discussions，即时讨论、实时讨论
 + Rebellious Hierarchy，叛逆性层次结构<sup>2</sup>
@@ -499,7 +505,9 @@
 + reporting，报表
 + Repository，存储库；仓储；仓库
 + request pipeline，请求管道
++ Requirements Churn，需求波动
 + reserved，专属
++ Return on Investment，投资回报（ROI）
 + reverse proxy module，反向代理模块
 + retail，零售版
 + Rich Client，丰富客户端
@@ -573,6 +581,7 @@
 + TDD,测试驱动开发（Test-Driven Development）
 + Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
 + technical bankruptcy，技术破产
++ Technical Debt，技术债务（TDBT）
 + Tenant，租户
 + Terminus，端点
 + test doubles，测试替身
@@ -625,6 +634,7 @@
 + Virtual Execution System，虚拟执行系统（VES）
 + Virtual Network，虚拟网络
 + Virtual Machine，虚拟机
++ viscosity，粘稠性
 + VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 + VOL，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 + Volume Licensing for Organizations，团体批量许可证；大量采购授权合约（VOL 或 VLO）
@@ -662,7 +672,7 @@
 + XOR，异或（Exclusive OR）
 
 ## Y
-+ YAGNI 原则，不需要原则（You Aren't Gonna Need It）
++ YAGNI 原则，不需要原则（You Aren't Gonna Need It），“你不会用到它<sup>3</sup>”
 
 ## Z
 
@@ -676,3 +686,4 @@
 
 [1] 重构列表，摘自《重构》一书。
 [2] 坏味道列表，摘自《软件设计重构》一书。
+[3] 摘自《Microsoft.NET 企业级应用架构设计》一书。
