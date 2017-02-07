@@ -28,10 +28,12 @@
 + application，应用，应用程序，应用软件
 + application life cycle，应用程序生命周期
 + application pool，应用程序池
++ Application Programming Interface，应用程序编程接口（API）
 + architecture，体系机构，结构
 + architecture decay，架构腐坏
 + ARPA，Advanced Research Projects Agency，（美国国防部）高级研究计划署
 + ARPAnet，ARPA网
++ Arrange-Act-Assert，准备-执行-断言（AAA）
 + aspect ratio，屏幕高宽比
 + assembly，程序集
 + Asynchronous Programming Model，异步编程模型（APM） 
@@ -78,6 +80,7 @@
 + broadcast，（无线电或电视）广播
 + Broken Hierarchy，支离破碎的层次结构<sup>2</sup>
 + Broken Modularization，拆散的模块化<sup>2</sup>
++ Browser Object Model，浏览器对象模型（BOM）
 + browser-server，浏览器-服务器
 + bug，缺陷
 + built-in，内置的，内建的；嵌入的；内置
@@ -96,6 +99,7 @@
 + camelCase，camel 大小写
 + carbon copy，复写本，副本；抄送（CC）
 + carriage return，回车
++ Cascading Style Sheets，层叠样式表（CSS）
 + cell，单元
 + cellular telephone，移动电话
 + Central Processing Unit，中央处理器（CPU）
@@ -208,6 +212,7 @@
 + disk，磁盘
 + distributed system，分布式系统
 + DLL，动态链接库（Dynamic Link Library）
++ Document Object Model，文档对象模型（DOM）
 + DRY 原则，不自我重复原则（Don't Repeat Yourself），“不要重复你自己<sup>3</sup>”
 + dummy function，虚构函数
 + dump，转储
@@ -369,6 +374,7 @@
 + managed execution，托管执行
 + Management Key，管理密钥
 + manifest，清单
++ Mathematical Markup Language，数学标记语言（MathML）
 + Media Service，媒体服务
 + Medium，中型
 + Merge，合并
@@ -523,6 +529,7 @@
 
 + Saas，软件即服务（Software as a Service）
 + Scalability，缩放性
++ Scalable Vector Graphic，可伸缩矢量图（SVG）
 + Scale，缩放
 + Scale Out，向外缩放
 + Scale Up，向上缩放
@@ -571,6 +578,7 @@
 + Sub-region，子地域
 + Subscription，订阅
 + Substitute Algorithm，替换算法<sup>1</sup>
++ Synchronized Multimedia Integration Language，同步多媒体集成语言（SMIL）
 + syntactic sugar，语法糖
 
 ## T
@@ -608,6 +616,7 @@
 ## U
 
 + Ubiquitous Computing，普存计算
++ Ubiquitous Language，统一语言
 + Uncommitted，未提交（的）
 + Update Domain，更新域
 + unbox，拆箱
@@ -663,6 +672,7 @@
 + Worker Role，辅助角色
 + Workflow，工作流
 + workgroup，工作组
++ World Wide Web Consortium，万维网联盟（W3C）
 + WPF，富客户端表示（Windows Presentation Foundation）
 
 ## X
@@ -670,6 +680,7 @@
 + X.509v3 certificate，X.509 证书
 + XML，可扩展标记语言（Extensible Markup Language）
 + XOR，异或（Exclusive OR）
++ XUL，XML 用户界面语言（XML User Interface Language）
 
 ## Y
 + YAGNI 原则，不需要原则（You Aren't Gonna Need It），“你不会用到它<sup>3</sup>”
