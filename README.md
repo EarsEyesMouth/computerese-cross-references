@@ -345,7 +345,7 @@
 
 + Key，密钥
 + Key-Value Pair，键-值对
-+ KISS 原则，保持简单原则（KeepIt Simple Silly），“简单是一切之本<sup>3</sup>”
++ KISS 原则，保持简单原则（Keep It Simple Silly），“简单是一切之本<sup>3</sup>”
 
 ## L
 
