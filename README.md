@@ -9,6 +9,7 @@
 + acoustic coupler，声音耦合器
 + Active Directory，活动目录
 + Acyclic Dependencies Principle，非循环依赖原则（ADP）
++ Adaptive Code，自适应代码
 + Add Parameter，添加参数
 + ADSL，Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
 + affinity，绑定
@@ -696,5 +697,7 @@
 # 注释
 
 [1] 重构列表，摘自《重构》一书。
+
 [2] 坏味道列表，摘自《软件设计重构》一书。
+
 [3] 摘自《Microsoft.NET 企业级应用架构设计》一书。
