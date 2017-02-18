@@ -415,6 +415,7 @@
 + One rule, one place，一个规则，实现一次
 + Open Closed Principle，开闭原则（OCP）
 + Open System Interconnection，开放式系统互联（OSI）
++ Optical Character Recognition，光学字符识别（OCR）
 + Optimistic Concurrency，乐观并发控制
 + Ordering Principal，良序原则
 + overriding，重写
