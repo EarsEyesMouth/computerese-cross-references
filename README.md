@@ -9,6 +9,7 @@
 + acoustic coupler，声音耦合器
 + Active Directory，活动目录
 + Acyclic Dependencies Principle，非循环依赖原则（ADP）
++ acyclic digraph，有向无环图	
 + Adaptive Code，自适应代码
 + Add Parameter，添加参数
 + ADSL，Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
@@ -16,6 +17,9 @@
 + affinity group，地缘组
 + agent，代理
 + agent-based interface，代理人界面
++ Agile，敏捷方法论
++ agile practice，敏捷实践
++ agile peocess，敏捷流程
 + agility，敏捷性
 + AI，Artificial Intelligence，人工智能
 + air waves，无线电波
@@ -25,7 +29,9 @@
 + annotation，注解，注释
 + answering machine，电话应答机
 + antenna，天线
++ anti-pattern，反模式
 + APM，异步编程模型（Asynchronous Programming Model）
++ Apocalyptic defect，灾难缺陷
 + application，应用，应用程序，应用软件
 + application life cycle，应用程序生命周期
 + application pool，应用程序池
@@ -35,6 +41,7 @@
 + ARPA，Advanced Research Projects Agency，（美国国防部）高级研究计划署
 + ARPAnet，ARPA网
 + Arrange-Act-Assert，准备-执行-断言（AAA）
++ Aspect-Oriented Programming，面向切面编程（AOP）
 + aspect ratio，屏幕高宽比
 + assembly，程序集
 + Asynchronous Programming Model，异步编程模型（APM） 
@@ -65,8 +72,10 @@
 + bear，熊
 + behavior，行为
 + behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
++ Behavioral error，行为错误
 + Big Ball of Mud，大泥球（BBM）
 + big data，大数据
++ Big Design Up Front，大优先设计（BDUF）
 + binary，二进制的
 + binochlar，双目并用的
 + bit，比特
@@ -81,6 +90,7 @@
 + broadcast，（无线电或电视）广播
 + Broken Hierarchy，支离破碎的层次结构<sup>2</sup>
 + Broken Modularization，拆散的模块化<sup>2</sup>
++ brownfield project，行进中项目
 + Browser Object Model，浏览器对象模型（BOM）
 + browser-server，浏览器-服务器
 + bug，缺陷
@@ -130,10 +140,13 @@
 + co-occurring smells，同时出现的坏味<sup>2</sup>
 + coaxial cable，同轴电缆
 + CoC，更改开销（Cost of Change）
++ code smell，代码味道
 + Collapse Hierarchy，折叠继承关系<sup>1</sup>
 + comcurrency，并发
 + command，命令
 + command prompt，命令行提示
++ Command/Query Responsibility Segregation，命令/查询职责分离（CQRS）
++ Command/Query Separation，命令/查询分离（CQS）
 + commingled bits，混合的比特
 + communication，通信
 + community，社区
@@ -147,6 +160,7 @@
 + compatibility，兼容性
 + Component Object Model，组件对象模型（COM）
 + composite formatting，复合格式化
++ Composite Pattern，复合模式
 + concurrency conflicts，并发冲突
 + concurrency mode，并发模式
 + conditional compilation，条件编译
@@ -169,6 +183,7 @@
 + cookie，Cookie
 + core，内核
 + corruption，损毁
++ Cosmetic issue，外观上问题
 + Cost of Change，更改开销（CoC）
 + CPU，中央处理器（Central Processing Unit）
 + crash，（程序）崩溃
@@ -181,6 +196,7 @@
 + cursor，光标
 + cybraian，电脑族
 + cyberspace，电脑空间
++ cyclic digraph，有向有环图
 + Cyclic Hierarchy，循环层次结构<sup>2</sup>
 + Cyclically-dependent Modularization，循环依赖式模块化<sup>2</sup>
 + Cyclomatic complexity，圈复杂度
@@ -197,10 +213,14 @@
 + Data Transfer Object，数据传输对象（DTO）
 + declarative programming，宣告式编程
 + Decompose Conditional，分解条件表达式<sup>1</sup>
++ Decorator Pattern，修饰器模式（DP）
 + Deep Hierarchy，过深的层次结构<sup>2</sup>
 + Defensive Programming，防御式编程
 + Deficient Encapsulation，不充分的封装<sup>2</sup>
++ Definition of Done，完成的定义（DoD）
 + dependenct injection，依赖注入（DI）
++ dependency，依赖
++ dependency digraph，依赖有向图
 + deployment，部署
 + dequeue，出列
 + derives from 继承
@@ -208,13 +228,17 @@
 + DfT，为可测试性而设计
 + DI，依赖注入（dependenct injection）
 + diagnostics，诊断
++ directed graph，有向图
 + directive，指令
 + discussion forum，论坛
 + disk，磁盘
 + distributed system，分布式系统
 + DLL，动态链接库（Dynamic Link Library）
 + Document Object Model，文档对象模型（DOM）
++ domain-driven design，领域驱动设计（DDD）
 + DRY 原则，不自我重复原则（Don't Repeat Yourself），“不要重复你自己<sup>3</sup>”
++ duck-typing，鸭子类型
++ duck test，鸭子测试
 + dummy function，虚构函数
 + dump，转储
 + Duplicate Abstraction，重复的抽象<sup>2</sup>
@@ -236,6 +260,7 @@
 + endpoint，端点
 + enqueue，入列；加入队列
 + entity，实体
++ entourage anti-pattern，随从反模式
 + erosion，侵蚀
 + Event-based Asynchronous Pattern，基于事件的异步模式（EAP）
 + exception handling，异常处理
@@ -250,6 +275,7 @@
 + Extract Method，提炼函数<sup>1</sup>
 + Extract Subclass，提炼子类<sup>1</sup>
 + Extract Superclass，提炼超类<sup>1</sup>
++ eXtreme Programming，极限编程（XP）
 
 ## F
 
@@ -260,6 +286,7 @@
 + fat client，胖客户端
 + FCL，.NET Framework 类库（Framework Class Library）
 + FDD，软盘（Floopy Disk Drive）
++ first-party，第一方
 + Floopy Disk Drive，软盘（FDD）
 + follow up，跟进
 + foreign key，外键
@@ -278,9 +305,11 @@
 + Garbage Collection，垃圾回收器（GC）
 + GC Heap，垃圾回收堆
 + GC root，GC 根对象
++ generalizing specialist，全科专家（敏捷开发术语）
 + generator，生成器
 + Geo-Replication，地域复制
 + Geo Redundant，地域冗余
++ Global Assembly Cache，全局程序集缓存（GAC）
 
 ## H
 
@@ -325,6 +354,7 @@
 + Intercept，截取
 + intermediate language，中间语言（IL）
 + Internal Endpoint，内部端点
++ Internet Information Service，Internet 信息服务（IIS）
 + Introduce Assertion，引入断言<sup>1</sup>
 + Introduce Explaining Variable，引入解释性变量<sup>1</sup>
 + Introduce Foreign Method，引入外加函数<sup>1</sup>
@@ -363,6 +393,7 @@
 + load balancer，负载平衡器
 + LOC，代码行数
 + log，日志
++ loop，自循环	
 + loose coupling，松散耦合
 + low surrogate，低位代理项
 + LSP，里氏替换原则
@@ -382,7 +413,9 @@
 + Metadata，元数据
 + Middleware，中间件
 + mind map，思维导图、脑图、心智图
-+ Minimum Viable Product，最小化可行产品，MVP
++ Minimum Marketable Feature，最小可售特性（MMF）
++ Minimum Viable Product，最小化可行产品（MVP）
++ Minimum Viable Release，最小可行发布（MVR）
 + Missing Abstraction，缺失抽象<sup>2</sup>
 + Missing Encapsulation，缺失的封装<sup>2</sup>
 + Missing Hierarchy，缺失层次结构<sup>2</sup>
@@ -410,6 +443,7 @@
 ## O
 
 + obfuscator，混淆器
++ Object/Relational Mapper，对象/关系映射器（ORM，O/RM）
 + On-demand (media)，点播（媒体）
 + Once and Only Once，一次且仅一次<sup>3</sup>(OAOO)
 + One rule, one place，一个规则，实现一次
@@ -430,6 +464,7 @@
 + partition，分区
 + PascalCase，Pascal 大小写
 + passive，被动（的）
++ pattern，模式
 + Pay as You Go，即用即付
 + PC，个人计算机（Personal Computer）
 + peek，查看
@@ -442,8 +477,11 @@
 + Platform as a Service，平台即服务（Paas）
 + Point-to-Site，点到站点
 + polling，轮询
++ polymorphism，多态
 + post-initialization，后初始化
 + pre-initialization，预初始化
++ Predicate Decorator，谓词修饰器
++ precondition，前提
 + presentation layer，表现层
 + Preserve Whole Object，保持对象完整<sup>1</sup>
 + primitive obsession，基本类型偏执<sup>2</sup>
@@ -451,8 +489,12 @@
 + priority queue，优先级队列
 + probe，探测器
 + process，进程
++ product backlog，产品积压工作
++ Product Owner，产品负责人（PO）
 + production，生产（环境）
++ proof of concept，概念验证
 + protocol，协议
++ prototype，原型
 + proxy，代理
 + public cloud，公有云
 + Pull Up Constructor Body，构造函数本体上移<sup>1</sup>
@@ -465,6 +507,7 @@
 
 ## Q
 
++ quality assurance，质量保证（QA）
 + Queue，队列
 + Quota，配额
 
@@ -476,6 +519,7 @@
 + real-time，即时、实时
 + real-time discussions，即时讨论、实时讨论
 + Rebellious Hierarchy，叛逆性层次结构<sup>2</sup>
++ recursion，递归
 + Redundancy，冗余
 + Redundant，冗余（的）
 + Refactor，重构
@@ -512,6 +556,7 @@
 + Replace Type Code with Subclass，以子类取代类型码<sup>1</sup>
 + reporting，报表
 + Repository，存储库；仓储；仓库
++ REpresentational State Transfer，表述性状态转移（REST）
 + request pipeline，请求管道
 + Requirements Churn，需求波动
 + reserved，专属
@@ -537,6 +582,7 @@
 + Scale Up，向上缩放
 + Schema (database)，架构（数据）
 + Schema (xml)，架构（xml）
++ Scrum Master，Scrum 主管（SM）
 + Secure Socket Layer，安全套接层（SSL）
 + Security，安全（性）
 + Security Socket Layer，安全套接层
@@ -554,34 +600,41 @@
 + Setting，设置
 + Shared，共享；分享
 + Shopping cart，购物车
++ Sign in，登录
++ Sign out，注销
 + Signature，签名
++ Single responsibility principle，单一职责原则（SRP）
++ single point of failure，单一故障点（SPOF）
++ Site，站点
++ Site-to-Site，站点到站点
 + SLA，服务水平协议（Service Level Agreement）
 + Small，小型
 + snapshot，快照
 + Software as a Service，软件即服务（Saas）
++ source lines of code，源代码行数（SLOC）
++ Speculative Hierarchy，凭空想象的层次结构<sup>2</sup>
 + Split Temporary Variable，分解临时变量<sup>1</sup>
++ sprint，冲刺（敏捷开发术语）
++ sprint backlog，冲刺积压工作
 + SQL Database，SQL 数据库
 + Staging，过渡（环境）
 + State-based testing，基于状态的测试
 + Stateless，无状态
 + Sticky Session，黏性会话
 + Stickyness，黏性；黏度
-+ Sign in，登录
-+ Sign out，注销
-+ Single responsibility principle，单一职责原则（SRP）
-+ Site，站点
-+ Site-to-Site，站点到站点
-+ Speculative Hierarchy，凭空想象的层次结构<sup>2</sup>
++ story，故事（敏捷开发术语）
 + Storage，存储
 + Storage Account，存储账户
 + Stream，流
 + structure，结构
++ Structured Systems Analysis and Design Methodology，结构化系统分析和设计方法（SSADM）
 + Subnet，子网
 + Sub-region，子地域
 + Subscription，订阅
 + Substitute Algorithm，替换算法<sup>1</sup>
 + Synchronized Multimedia Integration Language，同步多媒体集成语言（SMIL）
 + syntactic sugar，语法糖
++ System Under Test，测试目标系统（SUT）
 
 ## T
 
@@ -623,18 +676,23 @@
 + Update Domain，更新域
 + unbox，拆箱
 + under-post，提交不足
++ undirected graph，无向图
 + Unexploited Encapsulation，未利用封装<sup>2</sup>
 + Unfactored Hierarchy，未归并的层次结构<sup>2</sup>
++ Unified Modeling Language，统一建模语言（UML）
 + unit of work，工作单元
 + Unit test，单元测试
++ unit test coverage，单元测试覆盖率
 + unmanaged code，非托管代码
 + Unnecessary Abstract，不必要的抽象<sup>2</sup>
 + Unnecessary Hierarchy，不必要的层次结构<sup>2</sup>
 + Unutilized Abstraction，未用的抽象<sup>2</sup>
++ User Datagram Protocol，用户数据报协议（UDP）
 + User Mode Stack，用户模式栈
 
 ## V
 
++ variant，变体
 + Variation Encapsulation Principle，变化封装原则（VEP）
 + versionable interaction contract，可以进行版本控制的交互契约
 + Vertical Scale，垂直缩放
@@ -657,6 +715,7 @@
 + Wearable Device，可穿戴设备
 + Web Role，网站角色
 + Web Service，网络服务
++ Web Service Definition Language，Web 服务定义语言（WSDL）
 + Web Sites，网站
 + Weighted Method per Class，类累计圈复杂度（WMC）
 + WF，工作流（WIndows Workflow）
