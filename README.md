@@ -178,6 +178,9 @@
 + continuous integration，持续集成
 + contribute，贡献
 + Contributor License Agreement，贡献者许可协议
++ convention，约定
++ covariance，协变
++ contravariance，逆变
 + convert，转换
 + Convert Procedural Design to Objects，将过程化设计转化为对象设计<sup>1</sup>
 + cookie，Cookie
@@ -209,6 +212,7 @@
 + Data Encryption Standard，数据加密标准（DES）
 + data layer，数据层
 + data integrity，数据完整性
++ data invariant，数据不变式
 + data mining，数据挖掘
 + Data Transfer Object，数据传输对象（DTO）
 + declarative programming，宣告式编程
@@ -334,6 +338,7 @@
 + Idempotent Operation，幂等操作
 + Identity Provider，身份提供方
 + IL，中间语言（intermediate language）
++ Illegitimate Injection，非法注入
 + image，映像
 + immersion approach，沉浸法
 + Imperative Abstraction，命令式抽象<sup>2</sup>
@@ -361,6 +366,7 @@
 + Introduce Local Extension，引入本地扩展<sup>1</sup>
 + Introduce Null Object，引入 Null 对象<sup>1</sup>
 + Introduce Parameter Object，引入参数对象<sup>1</sup>
++ Inversion of Control，控制反转（IoC）
 + Isolation，隔离性
 + iterable，可迭代的
 + iteration，迭代
@@ -388,6 +394,7 @@
 + lifetime，生命周期
 + link，链接
 + linked resource，链接的资源
++ Liskov Substitution Principle，里氏替换原则（LSP）
 + literal，字面量、文字常量、直接量
 + load-balancing，负载平衡
 + load balancer，负载平衡器
@@ -396,7 +403,6 @@
 + loop，自循环	
 + loose coupling，松散耦合
 + low surrogate，低位代理项
-+ LSP，里氏替换原则
 
 ## M
 
@@ -463,6 +469,7 @@
 + Parameterize Method，令函数携带参数<sup>1</sup>
 + partition，分区
 + PascalCase，Pascal 大小写
++ pass-through，直托
 + passive，被动（的）
 + pattern，模式
 + Pay as You Go，即用即付
@@ -478,10 +485,12 @@
 + Point-to-Site，点到站点
 + polling，轮询
 + polymorphism，多态
++ Poor Man’s Dependency Injection，穷人的依赖注入
 + post-initialization，后初始化
++ postcondition，后置条件
 + pre-initialization，预初始化
 + Predicate Decorator，谓词修饰器
-+ precondition，前提
++ precondition，前提，前置条件
 + presentation layer，表现层
 + Preserve Whole Object，保持对象完整<sup>1</sup>
 + primitive obsession，基本类型偏执<sup>2</sup>
@@ -493,6 +502,7 @@
 + Product Owner，产品负责人（PO）
 + production，生产（环境）
 + proof of concept，概念验证
++ protected variation，防止变异
 + protocol，协议
 + prototype，原型
 + proxy，代理
@@ -560,6 +570,7 @@
 + request pipeline，请求管道
 + Requirements Churn，需求波动
 + reserved，专属
++ resolution，解析
 + Return on Investment，投资回报（ROI）
 + reverse proxy module，反向代理模块
 + retail，零售版
@@ -645,6 +656,7 @@
 + Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
 + technical bankruptcy，技术破产
 + Technical Debt，技术债务（TDBT）
++ Template Method pattern，模板方法模式
 + Tenant，租户
 + Terminus，端点
 + test doubles，测试替身
