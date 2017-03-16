@@ -227,7 +227,8 @@
 + dependency digraph，依赖有向图
 + deployment，部署
 + dequeue，出列
-+ derives from 继承
++ derives from，继承
++ design pattern，设计模式
 + device，设备
 + DfT，为可测试性而设计
 + DI，依赖注入（dependenct injection）
@@ -314,6 +315,7 @@
 + Geo-Replication，地域复制
 + Geo Redundant，地域冗余
 + Global Assembly Cache，全局程序集缓存（GAC）
++ global state，全局状态
 
 ## H
 
@@ -616,6 +618,7 @@
 + Signature，签名
 + Single responsibility principle，单一职责原则（SRP）
 + single point of failure，单一故障点（SPOF）
++ Singleton Pattern，单例模式
 + Site，站点
 + Site-to-Site，站点到站点
 + SLA，服务水平协议（Service Level Agreement）
@@ -629,6 +632,7 @@
 + sprint backlog，冲刺积压工作
 + SQL Database，SQL 数据库
 + Staging，过渡（环境）
++ state indeterminism，状态不确定性
 + State-based testing，基于状态的测试
 + Stateless，无状态
 + Sticky Session，黏性会话
