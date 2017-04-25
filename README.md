@@ -1,7 +1,6 @@
 # 计算机专业术语对照
 
 
-
 ## A
 
 + abstraction layer，抽象层
@@ -117,11 +116,13 @@
 + certificate，（数字）证书
 + Certificate Authority，证书认证机构
 + Change Bidirectional Association to Unidirectional，将双向关联改为单向关联<sup>1</sup>
++ Change Point，修改点：需要往代码中引入修改的点
 + Change Reference to Value，将引用对象改为值对象<sup>1</sup>
 + Change Unidirectional Association to Bidirectional，将单向关联改为双向关联<sup>1</sup>
 + Change Value to Reference，将值对象改为引用对象<sup>1</sup>
 + channel，信道，频道
 + character，字符
++ Characterization test，特征测试：描述软件某部分的当前行为的测试，当你修改代码时能够用来保持行为
 + check in，签入
 + check out，签出
 + chip，芯片
@@ -188,6 +189,7 @@
 + corruption，损毁
 + Cosmetic issue，外观上问题
 + Cost of Change，更改开销（CoC）
++ Coupling count，耦合数，当一个方法被调用时传给它以及从它传出来的值的数目。如果该方法没有返回值，则耦合数就是它的参数数目。否则就是参数数目加1。如果你想要在没有测试的情况下提取出一个消防法的话，计算一下它的耦合数是很有意义的。
 + CPU，中央处理器（Central Processing Unit）
 + crash，（程序）崩溃
 + crash dump，故障转储
@@ -256,6 +258,7 @@
 + EAP，早期评估版本（Early Assessment Program）
 + EAP，基于事件的异步模式（Event-based Asynchronous Pattern）
 + Early Assessment Program，早期评估版本（EAP）
++ effect sketch，影响草图
 + Egress，流出
 + elasticity，弹性
 + Element (XML)，元素
@@ -286,11 +289,13 @@
 
 + failover，容错转移
 + failure domain，故障域
++ fake object，伪对象：在测试中伪装成一个类的合作者的对象
 + fan-in，扇入
 + fan-out，扇出
 + fat client，胖客户端
 + FCL，.NET Framework 类库（Framework Class Library）
 + FDD，软盘（Floopy Disk Drive）
++ feature sketch，特性草图
 + first-party，第一方
 + Floopy Disk Drive，软盘（FDD）
 + follow up，跟进
@@ -302,6 +307,7 @@
 + FPP，零售版（Full Packaged Product）
 + Framework Class Library，.NET Framework 类库（FCL）
 + free，免费
++ free function，自由函数：一个不属于任何类的函数。枣 C 和其他过程式语言中，自由函数被简单地称为函数；在 C++ 中被称为非成员函数。在 Java 和 C# 中没有自由函数。
 + full-duplex，全双工
 + Full Packaged Product，零售版（FPP）
 
@@ -353,12 +359,13 @@
 + Inline Method，内联函数<sup>1</sup>
 + Inline Temp，内联临时变量<sup>1</sup>
 + input endpoint，输入端点
-+ Interaction-based testing，基于交互的测试
 + instance，实例
 + Instance InputEndpoint，实例输入端点
 + instantiation，实例化
 + Insufficient Modularization，不充分的模块化<sup>2</sup>
++ Interaction-based testing，基于交互的测试
 + Intercept，截取
++ interception point，拦截点：可以编写测试来感知某些条件的地方
 + intermediate language，中间语言（IL）
 + Internal Endpoint，内部端点
 + Internet Information Service，Internet 信息服务（IIS）
@@ -395,6 +402,7 @@
 + license，许可证
 + lifetime，生命周期
 + link，链接
++ link seam，连接期接缝：在连接期接缝处，可以通过连接到另一个库来替换行为。在编译型语言中可替换的东西包括产品库、DLL、程序集或 JAR 文件。其目的是为了解除依赖，或感知某些在测试期间可有能会发生的条件。
 + linked resource，链接的资源
 + Liskov Substitution Principle，里氏替换原则（LSP）
 + literal，字面量、文字常量、直接量
@@ -428,7 +436,7 @@
 + Missing Encapsulation，缺失的封装<sup>2</sup>
 + Missing Hierarchy，缺失层次结构<sup>2</sup>
 + Mobile Service，移动服务
-+ Mock Object，模拟对象
++ Mock Object，模拟对象，仿对象：在内部对条件进行断言的伪对象
 + Move Field，搬移字段<sup>1</sup>
 + Move Method，搬移函数<sup>1</sup>
 + Multitenancy，多租户
@@ -452,6 +460,7 @@
 
 + obfuscator，混淆器
 + Object/Relational Mapper，对象/关系映射器（ORM，O/RM）
++ object seam，对象接缝：在对象连接处可以通过替换一个对象为另一个对象来“更替”行为。在面向对象语言中，通常通过子类化产品代码中的类并重写其方法来实现这一点。
 + On-demand (media)，点播（媒体）
 + Once and Only Once，一次且仅一次<sup>3</sup>(OAOO)
 + One rule, one place，一个规则，实现一次
@@ -482,6 +491,7 @@
 + Personal Computer，个人计算机（PC）
 + Pessimistic Concurrency，悲观并发控制
 + PHAME，由 Booch 提出的对象模型的 4 个主要元素的设计规则的统称，即 Principle of Hierarchy, Abstraction, Modularization, and Encapsulation，层次结构、抽象、模块化与封装原则
++ pinch point，汇点：影响结构图中的隘口和交通要冲，在汇点编写测试的好处就是只需针对少数几个方法编写测试，就能达到探测大量其他方法的改动的目的。
 + placeholder，占位符
 + Platform as a Service，平台即服务（Paas）
 + Point-to-Site，点到站点
@@ -503,6 +513,7 @@
 + product backlog，产品积压工作
 + Product Owner，产品负责人（PO）
 + production，生产（环境）
++ programming by difference，差异式编程
 + proof of concept，概念验证
 + protected variation，防止变异
 + protocol，协议
@@ -596,6 +607,7 @@
 + Schema (database)，架构（数据）
 + Schema (xml)，架构（xml）
 + Scrum Master，Scrum 主管（SM）
++ seam，接缝：程序中的一些特殊的点，可以让你无需做任何修改就能达到修改程序行为的目的。
 + Secure Socket Layer，安全套接层（SSL）
 + Security，安全（性）
 + Security Socket Layer，安全套接层
@@ -665,6 +677,7 @@
 + Terminus，端点
 + test doubles，测试替身
 + Test-Driven Development，测试驱动开发（TDD）
++ test harness，测试用具
 + Thin Client，瘦客户端
 + Thread，线程
 + Thread Environment Block，线程环境块
