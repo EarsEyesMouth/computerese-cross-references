@@ -189,7 +189,7 @@
 + corruption，损毁
 + Cosmetic issue，外观上问题
 + Cost of Change，更改开销（CoC）
-+ Coupling count，耦合数，当一个方法被调用时传给它以及从它传出来的值的数目。如果该方法没有返回值，则耦合数就是它的参数数目。否则就是参数数目加1。如果你想要在没有测试的情况下提取出一个消防法的话，计算一下它的耦合数是很有意义的。
++ Coupling count，耦合数：当一个方法被调用时传给它以及从它传出来的值的数目。如果该方法没有返回值，则耦合数就是它的参数数目。否则就是参数数目加1。如果你想要在没有测试的情况下提取出一个消防法的话，计算一下它的耦合数是很有意义的。
 + CPU，中央处理器（Central Processing Unit）
 + crash，（程序）崩溃
 + crash dump，故障转储
@@ -307,7 +307,7 @@
 + FPP，零售版（Full Packaged Product）
 + Framework Class Library，.NET Framework 类库（FCL）
 + free，免费
-+ free function，自由函数：一个不属于任何类的函数。枣 C 和其他过程式语言中，自由函数被简单地称为函数；在 C++ 中被称为非成员函数。在 Java 和 C# 中没有自由函数。
++ free function，自由函数：一个不属于任何类的函数。在 C 和其他过程式语言中，自由函数被简单地称为函数；在 C++ 中被称为非成员函数。在 Java 和 C# 中没有自由函数。
 + full-duplex，全双工
 + Full Packaged Product，零售版（FPP）
 
@@ -713,6 +713,7 @@
 + Unit test，单元测试
 + unit test coverage，单元测试覆盖率
 + unmanaged code，非托管代码
++ unit-testing harnesses，单元测试用例
 + Unnecessary Abstract，不必要的抽象<sup>2</sup>
 + Unnecessary Hierarchy，不必要的层次结构<sup>2</sup>
 + Unutilized Abstraction，未用的抽象<sup>2</sup>
