@@ -37,6 +37,7 @@
 + Application Programming Interface，应用程序编程接口（API）
 + architecture，体系机构，结构
 + architecture decay，架构腐坏
++ Architecture Style，架构风格
 + ARPA，Advanced Research Projects Agency，（美国国防部）高级研究计划署
 + ARPAnet，ARPA网
 + Arrange-Act-Assert，准备-执行-断言（AAA）
@@ -339,6 +340,7 @@
 + Hosting，宿主
 + Hub-like Modularization，轮毂式模块化<sup>2</sup>
 + Hybrid Cloud，混合云
++ hypertext-driven，超文本驱动
 
 ## I
 
@@ -667,6 +669,7 @@
 
 + Table，表
 + TAP, ，基于任务的异步模式
++ targeted testing，目标测试
 + Task-based Asynchronous Pattern，基于任务的异步模式
 + TDD,测试驱动开发（Test-Driven Development）
 + Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
