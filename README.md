@@ -345,6 +345,7 @@
 ## I
 
 + Iaas，设施即服务（Infrastructure as a Service）
++ Idempotence，幂等性
 + Idempotent Operation，幂等操作
 + Identity Provider，身份提供方
 + IL，中间语言（intermediate language）
