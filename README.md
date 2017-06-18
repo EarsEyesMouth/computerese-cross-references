@@ -79,6 +79,7 @@
 + binary，二进制的
 + binochlar，双目并用的
 + bit，比特
++ Bit-field，位域
 + bitnik，比特族
 + blob，BLOB
 + block，阻断
@@ -222,6 +223,7 @@
 + Decompose Conditional，分解条件表达式<sup>1</sup>
 + Decorator Pattern，修饰器模式（DP）
 + Deep Hierarchy，过深的层次结构<sup>2</sup>
++ Default Literal，默认常值
 + Defensive Programming，防御式编程
 + Deficient Encapsulation，不充分的封装<sup>2</sup>
 + Definition of Done，完成的定义（DoD）
@@ -317,6 +319,8 @@
 + Garbage Collection，垃圾回收器（GC）
 + GC Heap，垃圾回收堆
 + GC root，GC 根对象
++ Generalized Async，通用异步
++ Generalized Async Return，通用异步返回（C# 7.0）
 + generalizing specialist，全科专家（敏捷开发术语）
 + generator，生成器
 + Geo-Replication，地域复制
@@ -412,6 +416,7 @@
 + load-balancing，负载平衡
 + load balancer，负载平衡器
 + LOC，代码行数
++ Local Function，局部函数
 + log，日志
 + loop，自循环	
 + loose coupling，松散耦合
@@ -457,6 +462,7 @@
 + normalize，规格化
 + notification，通知
 + notification hub，通知中心
++ null-coalescing，空值合并
 + N-Tier，N 层（结构）
 
 ## O
@@ -540,14 +546,17 @@
 ## R
 
 + Rack，机架
-+ Ready (status)，就绪（状态）
 + Rapid Application Development，快速应用程序开发（RAD）
++ Ready (status)，就绪（状态）
 + real-time，即时、实时
 + real-time discussions，即时讨论、实时讨论
 + Rebellious Hierarchy，叛逆性层次结构<sup>2</sup>
 + recursion，递归
 + Redundancy，冗余
 + Redundant，冗余（的）
++ Ref Return，应用返回
++ Ref Local，局部引用
++ Ref Property，引用属性
 + Refactor，重构
 + region，地域
 + reification，具体化
@@ -582,11 +591,12 @@
 + Replace Type Code with Subclass，以子类取代类型码<sup>1</sup>
 + reporting，报表
 + Repository，存储库；仓储；仓库
-+ REpresentational State Transfer，表述性状态转移（REST）
++ REpresentational State Transfer，表述性状态转移、表征性状态传输（REST）
 + request pipeline，请求管道
 + Requirements Churn，需求波动
 + reserved，专属
 + resolution，解析
++ Resource-Oriented Architecture，面向资源的架构(ROA)
 + Return on Investment，投资回报（ROI）
 + reverse proxy module，反向代理模块
 + retail，零售版
@@ -700,6 +710,7 @@
 + Transaction，事务
 + Transient Error，瞬时错误
 + Transportation Network Providers，交通网络提供者（TNP）
++ Type Bloat，类型膨胀
 
 ## U
 
