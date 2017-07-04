@@ -246,6 +246,7 @@
 + DLL，动态链接库（Dynamic Link Library）
 + Document Object Model，文档对象模型（DOM）
 + domain-driven design，领域驱动设计（DDD）
++ Domain-Specific Language，领域特定语言（DSL）
 + DRY 原则，不自我重复原则（Don't Repeat Yourself），“不要重复你自己<sup>3</sup>”
 + duck-typing，鸭子类型
 + duck test，鸭子测试
@@ -506,6 +507,7 @@
 + Point-to-Site，点到站点
 + polling，轮询
 + polymorphism，多态
++ polyrot programming，多语言编程
 + Poor Man’s Dependency Injection，穷人的依赖注入
 + post-initialization，后初始化
 + postcondition，后置条件
@@ -641,6 +643,7 @@
 + Sign in，登录
 + Sign out，注销
 + Signature，签名
++ Single Level of Abstraction Principle，单一抽象层次原则（SLAP）
 + Single responsibility principle，单一职责原则（SRP）
 + single point of failure，单一故障点（SPOF）
 + Singleton Pattern，单例模式
