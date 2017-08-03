@@ -142,6 +142,7 @@
 + clustered index，聚集索引
 + co-occurring smells，同时出现的坏味<sup>2</sup>
 + coaxial cable，同轴电缆
++ COBIT，信息和相关技术的控制目标，Control Objectives for Information and Related Technology
 + CoC，更改开销（Cost of Change）
 + code smell，代码味道
 + Collapse Hierarchy，折叠继承关系<sup>1</sup>
