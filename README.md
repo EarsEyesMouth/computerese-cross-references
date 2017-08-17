@@ -41,6 +41,7 @@
 + ARPA，Advanced Research Projects Agency，（美国国防部）高级研究计划署
 + ARPAnet，ARPA网
 + Arrange-Act-Assert，准备-执行-断言（AAA）
++ artifact，构建物<sup>4</sup>
 + Aspect-Oriented Programming，面向切面编程（AOP）
 + aspect ratio，屏幕高宽比
 + assembly，程序集
@@ -58,6 +59,7 @@
 + autonomous，独立性
 + availability，可用性
 + availability set，可用性集
++ AZs，可用性区域（Availability Zones，亚马逊 AWS 中数据中心的叫法）<sup>4</sup>
 
 ## B
 
@@ -73,6 +75,7 @@
 + behavior，行为
 + behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
 + Behavioral error，行为错误
++ BFF，为前端服务的后端（Backends For Frontends）<sup>4</sup>
 + Big Ball of Mud，大泥球（BBM）
 + big data，大数据
 + Big Design Up Front，大优先设计（BDUF）
@@ -85,6 +88,7 @@
 + block，阻断
 + block blob，块 BLOB
 + bottleneck，瓶颈
++ bounded context，边界上下文、界限上下文<sup>4</sup>
 + box，装箱
 + bps，bits per second，比特/秒
 + breakpoint，断点
@@ -96,6 +100,7 @@
 + browser-server，浏览器-服务器
 + bug，缺陷
 + built-in，内置的，内建的；嵌入的；内置
++ bulkhead，舱壁<sup>4</sup>
 + business intelligence，商业智能
 + business layer，业务层
 + business logic layer，业务逻辑层
@@ -109,9 +114,14 @@
 + call stack，调用堆栈
 + callout box，标注框
 + camelCase，camel 大小写
++ canary releasing，金丝雀发布<sup>4</sup>
 + carbon copy，复写本，副本；抄送（CC）
 + carriage return，回车
 + Cascading Style Sheets，层叠样式表（CSS）
++ catastrophic failover，灾难性故障转移<sup>4</sup>
++ CD，持续交付（Continuous Delivery）<sup>4</sup>
++ CDC，消费者驱动的契约（Customer-Driven Contract）<sup>4</sup>
++ CDN，内容分发网络（Content Delivery Network）
 + cell，单元
 + cellular telephone，移动电话
 + Central Processing Unit，中央处理器（CPU）
@@ -128,6 +138,8 @@
 + check in，签入
 + check out，签出
 + chip，芯片
++ choreography，协同
++ CI，持续集成（Continuous Integration）<sup>4</sup>
 + cipher，密码
 + claim，声明
 + class definition，类定义
@@ -140,9 +152,10 @@
 + CLS，公共语言规范（Common Language Specification）
 + cluster，集群
 + clustered index，聚集索引
++ CMS，内容管理系统（Content Management System）
 + co-occurring smells，同时出现的坏味<sup>2</sup>
 + coaxial cable，同轴电缆
-+ COBIT，信息和相关技术的控制目标，Control Objectives for Information and Related Technology
++ COBIT，信息和相关技术的控制目标，Control Objectives for Information and Related Technology<sup>4</sup>
 + CoC，更改开销（Cost of Change）
 + code smell，代码味道
 + Collapse Hierarchy，折叠继承关系<sup>1</sup>
@@ -162,6 +175,7 @@
 + Common Type System，公共类型系统（CTS）
 + common name，通用名称
 + compatibility，兼容性
++ Competing Consumer pattern，消费者竞争模式<sup>4</sup>
 + Component Object Model，组件对象模型（COM）
 + composite formatting，复合格式化
 + Composite Pattern，复合模式
@@ -176,6 +190,7 @@
 + consistenct，一致性
 + constructor，构造函数
 + container，容器
++ Container As A Service，容器即服务（CaaS）<sup>4</sup>
 + content，内容
 + context，上下文
 + contextual keyword，上下文关键字
@@ -192,11 +207,18 @@
 + corruption，损毁
 + Cosmetic issue，外观上问题
 + Cost of Change，更改开销（CoC）
++ COTS，现成的商业软件（Commercial Off-The Shelf）<sup>4</sup>
++ counterpoint，对位<sup>4</sup>
 + Coupling count，耦合数：当一个方法被调用时传给它以及从它传出来的值的数目。如果该方法没有返回值，则耦合数就是它的参数数目。否则就是参数数目加1。如果你想要在没有测试的情况下提取出一个消防法的话，计算一下它的耦合数是很有意义的。
 + CPU，中央处理器（Central Processing Unit）
++ CQRS，命令查询职责分离（Command-Query Responsibility Segregation）
 + crash，（程序）崩溃
 + crash dump，故障转储
++ CRC，类-职责-交互（class-responsibility-collaboration）<sup>4</sup>
++ credential，凭证<sup>4</sup>
 + cririque，评估
++ CRM，客户关系管理（Customer Relationship Management）
++ Cross-Functuinal Requirement，跨功能需求（CFR）<sup>4</sup>
 + CRT，cathode ray tube，阴极射线管
 + cruft，残留
 + crytography，密码术
@@ -204,6 +226,7 @@
 + cursor，光标
 + cybraian，电脑族
 + cyberspace，电脑空间
++ cycle time，周期时间
 + cyclic digraph，有向有环图
 + Cyclic Hierarchy，循环层次结构<sup>2</sup>
 + Cyclically-dependent Modularization，循环依赖式模块化<sup>2</sup>
@@ -219,6 +242,7 @@
 + data integrity，数据完整性
 + data invariant，数据不变式
 + data mining，数据挖掘
++ data pump，数据泵
 + Data Transfer Object，数据传输对象（DTO）
 + declarative programming，宣告式编程
 + Decompose Conditional，分解条件表达式<sup>1</sup>
@@ -228,6 +252,7 @@
 + Defensive Programming，防御式编程
 + Deficient Encapsulation，不充分的封装<sup>2</sup>
 + Definition of Done，完成的定义（DoD）
++ denial-of-service attacks，拒绝服务攻击<sup>4</sup>
 + dependenct injection，依赖注入（DI）
 + dependency，依赖
 + dependency digraph，依赖有向图
@@ -241,6 +266,7 @@
 + diagnostics，诊断
 + directed graph，有向图
 + directive，指令
++ DiRT，灾难恢复测试（Disaster Recovery Test）<sup>4</sup>
 + discussion forum，论坛
 + disk，磁盘
 + distributed system，分布式系统
@@ -266,6 +292,7 @@
 + effect sketch，影响草图
 + Egress，流出
 + elasticity，弹性
++ ELBs，弹性负载均衡器（Elastic Load Balancers）<sup>4</sup>
 + Element (XML)，元素
 + Encapsulate Collection，封装集合<sup>1</sup>
 + Encapsulate Downset，封装向下转型<sup>1</sup>
@@ -273,9 +300,12 @@
 + endpoint，端点
 + enqueue，入列；加入队列
 + entity，实体
++ Entity Tags，实体标签（ETag）
 + entourage anti-pattern，随从反模式
 + erosion，侵蚀
 + Event-based Asynchronous Pattern，基于事件的异步模式（EAP）
++ event data pump，时间数据泵<sup>4</sup>
++ event sourcing，事件源
 + exception handling，异常处理
 + Exclusive OR，异或（XOR）
 + explanatory figures，图示
@@ -301,6 +331,7 @@
 + FCL，.NET Framework 类库（Framework Class Library）
 + FDD，软盘（Floopy Disk Drive）
 + feature sketch，特性草图
++ feed，聚合（资源聚合）
 + first-party，第一方
 + Floopy Disk Drive，软盘（FDD）
 + follow up，跟进
@@ -319,6 +350,7 @@
 ## G
 
 + Garbage Collection，垃圾回收器（GC）
++ gauge，计量表<sup>4</sup>
 + GC Heap，垃圾回收堆
 + GC root，GC 根对象
 + Generalized Async，通用异步
@@ -332,19 +364,25 @@
 
 ## H
 
++ HAL，超文本应用程序语言（Hypertext Application Language）<sup>4</sup>
 + handle，句柄
 + Hard Disk Drive，硬盘（HDD）
++ HATEOAS，超媒体作为程序状态的引擎（Hypermedia As The Engine Of Application State）<sup>4</sup>
 + HDD，硬盘（Hard Disk Drive）
 + header，头；标头；表头
++ Hexagonal Architecture，六边形架构理论<sup>4</sup>
++ HMAC，基于哈希的小系列码（Hash-based Message Authentication）<sup>4</sup>
 + Hide Delegate，隐藏“委托关系”<sup>1</sup>
 + Hide Method，隐藏函数<sup>1</sup>
 + High Avaliability，高可用性
 + high surrogate，高位代理项
 + Homogeneous，同质化
++ hook，钩子
 + hook point，挂接点
 + Horizontal Scale，水平缩放
 + Hosting，宿主
 + Hub-like Modularization，轮毂式模块化<sup>2</sup>
++ Humane Registry，人文注册表（由 Martin Fowler 提出）<sup>4</sup>
 + Hybrid Cloud，混合云
 + hypertext-driven，超文本驱动
 
@@ -384,6 +422,8 @@
 + Introduce Local Extension，引入本地扩展<sup>1</sup>
 + Introduce Null Object，引入 Null 对象<sup>1</sup>
 + Introduce Parameter Object，引入参数对象<sup>1</sup>
++ Intrusion Detection Systems，入侵检测系统（IDS）<sup>4</sup>
++ Intrusion Prevention Systems，入侵预防系统（IPS）<sup>4</sup>
 + Inversion of Control，控制反转（IoC）
 + Isolation，隔离性
 + iterable，可迭代的
@@ -394,7 +434,9 @@
 ## J
 
 + Job，作业
++ Json Web Token，JSON Web 令牌<sup>4</sup>
 + just-in-time compilation，即时编译，JIT 编译
++ JVM，Java 虚拟机（Java Virtual Machine）
 
 ## K
 
@@ -410,15 +452,20 @@
 + Legacy system，遗留系统
 + license，许可证
 + lifetime，生命周期
++ Lightweight Directory Access Protocol，轻量级目录访问协议（LDAP）<sup>4</sup>
++ LINE of Business，业务线（LOB）<sup>4</sup>
 + link，链接
 + link seam，连接期接缝：在连接期接缝处，可以通过连接到另一个库来替换行为。在编译型语言中可替换的东西包括产品库、DLL、程序集或 JAR 文件。其目的是为了解除依赖，或感知某些在测试期间可有能会发生的条件。
 + linked resource，链接的资源
 + Liskov Substitution Principle，里氏替换原则（LSP）
 + literal，字面量、文字常量、直接量
++ living style guides，活样式指导<sup>4</sup>
 + load-balancing，负载平衡
 + load balancer，负载平衡器
++ load shedding，减载<sup>4</sup>
 + LOC，代码行数
 + Local Function，局部函数
++ lock-step release，同步发布<sup>4</sup>
 + log，日志
 + loop，自循环	
 + loose coupling，松散耦合
@@ -433,6 +480,8 @@
 + Management Key，管理密钥
 + manifest，清单
 + Mathematical Markup Language，数学标记语言（MathML）
++ Mean Time Between Failures，平均故障时间间隔（MTBF）<sup>4</sup>
++ Mean Time To Repair，平均修复时间（MTTR）<sup>4</sup>
 + Media Service，媒体服务
 + Medium，中型
 + Merge，合并
@@ -459,6 +508,7 @@
 
 + Namespace，命名空间，名称空间
 + native code，本机代码
++ network hops，网络跳数
 + Non-clustered Index，非聚集索引
 + node，节点
 + normalize，规格化
@@ -479,17 +529,21 @@
 + Open System Interconnection，开放式系统互联（OSI）
 + Optical Character Recognition，光学字符识别（OCR）
 + Optimistic Concurrency，乐观并发控制
++ orchestration，编排
 + Ordering Principal，良序原则
++ OSGI，开放服务网关协议（Open Source Gateway Initiative）<sup>4</sup>
 + overriding，重写
 + Overview，概览
 + over-post，过度提交
++ OWASP，开放式 Web 应用程序安全项目（Open Web Application Security Project）<sup>4</sup>
 
 ## P
 
-+ Paas，平台即服务（Platform as a Service）
++ Paas，平台即服务（Platform As A Service）
 + Page Blob，页 BLOB
 + Parameterize Method，令函数携带参数<sup>1</sup>
 + partition，分区
++ partition tolerabce，分区容忍性<sup>4</sup>
 + PascalCase，Pascal 大小写
 + pass-through，直托
 + passive，被动（的）
@@ -497,6 +551,7 @@
 + Pay as You Go，即用即付
 + PC，个人计算机（Personal Computer）
 + peek，查看
++ peering rules，对等交互规则<sup>4</sup>
 + performance，性能
 + performance counter，性能计数器
 + Personal Computer，个人计算机（PC）
@@ -518,15 +573,19 @@
 + presentation layer，表现层
 + Preserve Whole Object，保持对象完整<sup>1</sup>
 + primitive obsession，基本类型偏执<sup>2</sup>
++ principal，主体<sup>4</sup>
 + private cloud，私有云
 + priority queue，优先级队列
 + probe，探测器
 + process，进程
++ producer，生产者
 + product backlog，产品积压工作
 + Product Owner，产品负责人（PO）
 + production，生产（环境）
++ production load，生产负载<sup>4</sup>
 + programming by difference，差异式编程
 + proof of concept，概念验证
++ proportional error rate，错误率比例<sup>4</sup>
 + protected variation，防止变异
 + protocol，协议
 + prototype，原型
@@ -550,6 +609,8 @@
 
 + Rack，机架
 + Rapid Application Development，快速应用程序开发（RAD）
++ RDBMS，关系型数据库管理系统（Relational Database Management System）
++ Reactive extensions，响应式扩展（Rx）<sup>4</sup>
 + Ready (status)，就绪（状态）
 + real-time，即时、实时
 + real-time discussions，即时讨论、实时讨论
@@ -611,25 +672,33 @@
 + round-tripping，还原；回传；往返，往返切换
 + router，路由器
 + row，行
++ RPC，远程过程调用（Remote Procedure Call）<sup>4</sup>
 
 ## S
 
-+ Saas，软件即服务（Software as a Service）
++ Saas，软件即服务（Software As A Service）
++ salted password hashing，加盐密码哈希<sup>4</sup>
++ SAN，存储区域网络（Storage Area Network）<sup>4</sup>
 + Scalability，缩放性
 + Scalable Vector Graphic，可伸缩矢量图（SVG）
 + Scale，缩放
 + Scale Out，向外缩放
 + Scale Up，向上缩放
++ scaling pattern，扩展模式<sup>4</sup>
 + Schema (database)，架构（数据）
 + Schema (xml)，架构（xml）
 + Scrum Master，Scrum 主管（SM）
++ SDK，软件开发工具箱（Software Development Kits）
 + seam，接缝：程序中的一些特殊的点，可以让你无需做任何修改就能达到修改程序行为的目的。
 + Secure Socket Layer，安全套接层（SSL）
 + Security，安全（性）
++ Security Development Lifecycle，安全开发生命周期<sup>4</sup>
 + Security Socket Layer，安全套接层
 + Security Token，安全令牌
 + Self Encapsulate Field，自封装字段<sup>1</sup>
++ self-hosted，自管理主机<sup>4</sup>
 + Self-signed Certificate，自签名证书
++ semantic monitoring，语义监控<sup>4</sup>
 + Seqarate Domain from Presentation，将领域和表述/显示分离<sup>1</sup>
 + Seqarate Query from Modifier，将查询函数和修改函数分离<sup>1</sup>
 + Serializable，可序列化
@@ -650,9 +719,11 @@
 + Singleton Pattern，单例模式
 + Site，站点
 + Site-to-Site，站点到站点
-+ SLA，服务水平协议（Service Level Agreement）
++ SLA，服务水平协议、服务等级协议（Service Level Agreement）
 + Small，小型
++ smart endpoint，智能端点<sup>4</sup>
 + snapshot，快照
++ SOA，面向服务的架构（Service-Oriented Architecture）
 + Software as a Service，软件即服务（Saas）
 + source lines of code，源代码行数（SLOC）
 + Speculative Hierarchy，凭空想象的层次结构<sup>2</sup>
@@ -660,6 +731,8 @@
 + sprint，冲刺（敏捷开发术语）
 + sprint backlog，冲刺积压工作
 + SQL Database，SQL 数据库
++ SSO，单点登录（Single Sign-On）<sup>4</sup>
++ stage，阶段
 + Staging，过渡（环境）
 + state indeterminism，状态不确定性
 + State-based testing，基于状态的测试
@@ -669,6 +742,7 @@
 + story，故事（敏捷开发术语）
 + Storage，存储
 + Storage Account，存储账户
++ Strangler Application Pattern，绞杀者模式<sup>4</sup>
 + Stream，流
 + structure，结构
 + Structured Systems Analysis and Design Methodology，结构化系统分析和设计方法（SSADM）
@@ -686,6 +760,7 @@
 + TAP, ，基于任务的异步模式
 + targeted testing，目标测试
 + Task-based Asynchronous Pattern，基于任务的异步模式
++ TCP，传输控制协议（Transmission Control Protocol）
 + TDD,测试驱动开发（Test-Driven Development）
 + Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
 + technical bankruptcy，技术破产
@@ -696,6 +771,7 @@
 + test doubles，测试替身
 + Test-Driven Development，测试驱动开发（TDD）
 + test harness，测试用具
++ the normalization of deviance，异常正常化<sup>4</sup>
 + Thin Client，瘦客户端
 + Thread，线程
 + Thread Environment Block，线程环境块
@@ -713,13 +789,16 @@
 + (Code) Tracing，（代码）追踪
 + Transaction，事务
 + Transient Error，瞬时错误
++ Transparent Data Encryption，透明数据加密<sup>4</sup>
 + Transportation Network Providers，交通网络提供者（TNP）
 + Type Bloat，类型膨胀
 
 ## U
 
++ UAT，用户验收测试（User Acceptance Testing）<sup>4</sup>
 + Ubiquitous Computing，普存计算
 + Ubiquitous Language，统一语言
++ UDDI，通用描述、发现与集成服务（Universal Description, Discovery, and Integration）
 + Uncommitted，未提交（的）
 + Update Domain，更新域
 + unbox，拆箱
@@ -756,6 +835,8 @@
 + VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 + VOL，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 + Volume Licensing for Organizations，团体批量许可证；大量采购授权合约（VOL 或 VLO）
++ VPC，虚拟私有云（Virtual Private Cloud）<sup>4</sup>
++ VPN，虚拟专用网络（Virtual Private Network）
 
 ## W
 
@@ -773,7 +854,7 @@
 + Windows Internet Name Service，Windows Internet 命名服务（WINS）
 + Windows Management Instrumentation，Windows 管理规范（WMI）
 + Windows Presentation Foundation，富客户端表示（WPF）
-+ WIndows Workflow，工作流（WF）
++ Windows Workflow，工作流（WF）
 + WINS，Windows Internet 命名服务（Windows Internet Name Service）
 + WINS Proxy，WINS 代理
 + WINS Resource，WINS 资源
@@ -784,6 +865,7 @@
 + workgroup，工作组
 + World Wide Web Consortium，万维网联盟（W3C）
 + WPF，富客户端表示（Windows Presentation Foundation）
++ writebehind，后写式
 
 ## X
 
@@ -810,3 +892,5 @@
 [2] 坏味道列表，摘自《软件设计重构》一书。
 
 [3] 摘自《Microsoft.NET 企业级应用架构设计》一书。
+
+[4] 摘自《微服务设计》一书。
