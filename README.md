@@ -63,6 +63,7 @@
 
 ## B
 
++ Backend as a Service，后端即服务（BaaS）
 + backpane，底板
 + backward compatibility，向后兼容性
 + bandwidth，带宽
@@ -87,6 +88,7 @@
 + blob，BLOB
 + block，阻断
 + block blob，块 BLOB
++ Blockchain as a Service，区块链即服务（BaaS）
 + bottleneck，瓶颈
 + bounded context，边界上下文、界限上下文<sup>4</sup>
 + box，装箱
@@ -218,6 +220,7 @@
 + credential，凭证<sup>4</sup>
 + cririque，评估
 + CRM，客户关系管理（Customer Relationship Management）
++ Cross Domain，跨域
 + Cross-Functuinal Requirement，跨功能需求（CFR）<sup>4</sup>
 + CRT，cathode ray tube，阴极射线管
 + cruft，残留
@@ -236,6 +239,7 @@
 
 + dashboard，仪表盘
 + data access layer，数据访问层
++ Data Storage as a Service，数据存储即服务（DaaS）
 + data clumps，数据泥团<sup>2</sup>
 + Data Encryption Standard，数据加密标准（DES）
 + data layer，数据层
@@ -364,6 +368,7 @@
 
 ## H
 
++ Hackable，修改方便（根据《Web API 设计与开发》一书之翻译）
 + HAL，超文本应用程序语言（Hypertext Application Language）<sup>4</sup>
 + handle，句柄
 + Hard Disk Drive，硬盘（HDD）
@@ -470,6 +475,7 @@
 + loop，自循环	
 + loose coupling，松散耦合
 + low surrogate，低位代理项
++ LSUD，大批你所不知道的开发人员（Large Set of Unknown Developers）
 
 ## M
 
@@ -477,8 +483,11 @@
 + Maintainability，可维护性
 + managed code，托管代码
 + managed execution，托管执行
++ Man-In-The-Middle Attack，中间人攻击（MITM 攻击）
 + Management Key，管理密钥
 + manifest，清单
++ Massive Multiplayer Online Role-Playing Game，大型多人在线角色扮演游戏（MMORPG）
++ Massively Multiplayer Online Role-Playing Game，大型多人在线角色扮演游戏（MMORPG）
 + Mathematical Markup Language，数学标记语言（MathML）
 + Mean Time Between Failures，平均故障时间间隔（MTBF）<sup>4</sup>
 + Mean Time To Repair，平均修复时间（MTTR）<sup>4</sup>
@@ -525,11 +534,14 @@
 + On-demand (media)，点播（媒体）
 + Once and Only Once，一次且仅一次<sup>3</sup>(OAOO)
 + One rule, one place，一个规则，实现一次
++ One-Size-Fits-All，OSFA
++ one-time token，一次性令牌
 + Open Closed Principle，开闭原则（OCP）
 + Open System Interconnection，开放式系统互联（OSI）
 + Optical Character Recognition，光学字符识别（OCR）
 + Optimistic Concurrency，乐观并发控制
 + orchestration，编排
++ Orchestration Layer，策略编排层
 + Ordering Principal，良序原则
 + OSGI，开放服务网关协议（Open Source Gateway Initiative）<sup>4</sup>
 + overriding，重写
@@ -540,6 +552,7 @@
 ## P
 
 + Paas，平台即服务（Platform As A Service）
++ packet sniffing，分组嗅探
 + Page Blob，页 BLOB
 + Parameterize Method，令函数携带参数<sup>1</sup>
 + partition，分区
@@ -552,6 +565,7 @@
 + PC，个人计算机（Personal Computer）
 + peek，查看
 + peering rules，对等交互规则<sup>4</sup>
++ Percent Encoding，百分号编码
 + performance，性能
 + performance counter，性能计数器
 + Personal Computer，个人计算机（PC）
@@ -567,6 +581,7 @@
 + Poor Man’s Dependency Injection，穷人的依赖注入
 + post-initialization，后初始化
 + postcondition，后置条件
++ pre-flight request，事先请求
 + pre-initialization，预初始化
 + Predicate Decorator，谓词修饰器
 + precondition，前提，前置条件
@@ -661,6 +676,7 @@
 + reserved，专属
 + resolution，解析
 + Resource-Oriented Architecture，面向资源的架构(ROA)
++ Response Group，响应群
 + Return on Investment，投资回报（ROI）
 + reverse proxy module，反向代理模块
 + retail，零售版
@@ -699,14 +715,17 @@
 + self-hosted，自管理主机<sup>4</sup>
 + Self-signed Certificate，自签名证书
 + semantic monitoring，语义监控<sup>4</sup>
++ Semantic Versioning，语义化版本控制
 + Seqarate Domain from Presentation，将领域和表述/显示分离<sup>1</sup>
 + Seqarate Query from Modifier，将查询函数和修改函数分离<sup>1</sup>
 + Serializable，可序列化
 + Server Affinity，服务器绑定
++ Server Driven Content Negotiation，服务器驱动的内容协商
 + Service Bus，服务总线
 + Service Contract，服务合同
 + Service Level Agreement，服务水平协议（SLA）
 + Service Provider，服务提供方
++ session jacking，会话劫持
 + Setting，设置
 + Shared，共享；分享
 + Shopping cart，购物车
@@ -731,6 +750,7 @@
 + sprint，冲刺（敏捷开发术语）
 + sprint backlog，冲刺积压工作
 + SQL Database，SQL 数据库
++ SSKD，少量你所知道的开发人员（Small Set of Known Developers）
 + SSO，单点登录（Single Sign-On）<sup>4</sup>
 + stage，阶段
 + Staging，过渡（环境）
@@ -747,6 +767,7 @@
 + structure，结构
 + Structured Systems Analysis and Design Methodology，结构化系统分析和设计方法（SSADM）
 + Subnet，子网
++ Subordinate，附属
 + Sub-region，子地域
 + Subscription，订阅
 + Substitute Algorithm，替换算法<sup>1</sup>
@@ -844,6 +865,7 @@
 + Weak Generational Hypothesis，弱分代假设
 + Wearable Device，可穿戴设备
 + Web Role，网站角色
++ Web Scraping，网络爬虫
 + Web Service，网络服务
 + Web Service Definition Language，Web 服务定义语言（WSDL）
 + Web Sites，网站
