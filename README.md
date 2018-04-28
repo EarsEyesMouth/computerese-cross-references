@@ -42,6 +42,7 @@
 + ARPAnet，ARPA网
 + Arrange-Act-Assert，准备-执行-断言（AAA）
 + artifact，构建物<sup>4</sup>
++ ASF，Apache Software Foundation 的简写
 + Aspect-Oriented Programming，面向切面编程（AOP）
 + aspect ratio，屏幕高宽比
 + assembly，程序集
@@ -205,7 +206,7 @@
 + convert，转换
 + Convert Procedural Design to Objects，将过程化设计转化为对象设计<sup>1</sup>
 + cookie，Cookie
-+ core，内核
++ core，内核；.NET Core 的简写（能且仅能与 .NET Framework 的简写 `nfx` 同时出现，作如 `nfx/core`，单独使用时应为全称 `.NET Core`）
 + corruption，损毁
 + Cosmetic issue，外观上问题
 + Cost of Change，更改开销（CoC）
@@ -517,7 +518,9 @@
 
 + Namespace，命名空间，名称空间
 + native code，本机代码
++ NCC，.NET Core 社区（.NET Core Community）/.NET 中国社区（.NET China Community） 
 + network hops，网络跳数
++ nfx，.NET Framework（.NET 框架）
 + Non-clustered Index，非聚集索引
 + node，节点
 + normalize，规格化
@@ -771,6 +774,7 @@
 + Sub-region，子地域
 + Subscription，订阅
 + Substitute Algorithm，替换算法<sup>1</sup>
++ SW，Apache SkyWalking 的简写
 + Synchronized Multimedia Integration Language，同步多媒体集成语言（SMIL）
 + syntactic sugar，语法糖
 + System Under Test，测试目标系统（SUT）
