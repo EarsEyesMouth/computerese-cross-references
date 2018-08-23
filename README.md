@@ -278,7 +278,7 @@
 + DLL，动态链接库（Dynamic Link Library）
 + Document Object Model，文档对象模型（DOM）
 + domain-driven design，领域驱动设计（DDD）
-+ Domain-Specific Language，领域特定语言（DSL）
++ Domain Specific Language，领域特定语言（DSL）
 + DRY 原则，不自我重复原则（Don't Repeat Yourself），“不要重复你自己<sup>3</sup>”
 + duck-typing，鸭子类型
 + duck test，鸭子测试
@@ -432,6 +432,7 @@
 + Intrusion Prevention Systems，入侵预防系统（IPS）<sup>4</sup>
 + Inversion of Control，控制反转（IoC）
 + Isolation，隔离性
++ isomorphism，同构（数学领域专用术语）
 + iterable，可迭代的
 + iteration，迭代
 + iterator，迭代器
@@ -673,7 +674,7 @@
 + Replace Type Code with Subclass，以子类取代类型码<sup>1</sup>
 + reporting，报表
 + Repository，存储库；仓储；仓库
-+ REpresentational State Transfer，表述性状态转移、表征性状态传输（REST）
++ REpresentational State Transfer，表述性状态转移、表征性状态传输、具象状态传输（REST）
 + request pipeline，请求管道
 + Requirements Churn，需求波动
 + reserved，专属
@@ -709,6 +710,7 @@
 + Scrum Master，Scrum 主管（SM）
 + SDK，软件开发工具箱（Software Development Kits）
 + seam，接缝：程序中的一些特殊的点，可以让你无需做任何修改就能达到修改程序行为的目的。
++ Search Engine Optimization，搜索引擎优化（SEO）
 + Secure Socket Layer，安全套接层（SSL）
 + Security，安全（性）
 + Security Development Lifecycle，安全开发生命周期<sup>4</sup>
@@ -724,6 +726,7 @@
 + Serializable，可序列化
 + Server Affinity，服务器绑定
 + Server Driven Content Negotiation，服务器驱动的内容协商
++ Server Side Render，服务器渲染（SSR）
 + Service Bus，服务总线
 + Service Contract，服务合同
 + Service Level Agreement，服务水平协议（SLA）
@@ -737,6 +740,7 @@
 + Signature，签名
 + Single Level of Abstraction Principle，单一抽象层次原则（SLAP）
 + Single responsibility principle，单一职责原则（SRP）
++ Single Page Application，单页面应用（SPA）
 + single point of failure，单一故障点（SPOF）
 + Singleton Pattern，单例模式
 + Site，站点
