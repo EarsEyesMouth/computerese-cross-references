@@ -18,7 +18,7 @@
 + agent-based interface，代理人界面
 + Agile，敏捷方法论
 + agile practice，敏捷实践
-+ agile peocess，敏捷流程
++ agile process，敏捷流程
 + agility，敏捷性
 + AI，Artificial Intelligence，人工智能
 + air waves，无线电波
