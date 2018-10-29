@@ -196,6 +196,8 @@
 + Container As A Service，容器即服务（CaaS）<sup>4</sup>
 + content，内容
 + context，上下文
++ context map, 上下文映射图，上下文地图 <sup>5</sup>
++ Comtext Mapping，上下文映射 <sup>5</sup>
 + contextual keyword，上下文关键字
 + continuous integration，持续集成
 + contribute，贡献
@@ -770,6 +772,7 @@
 + Storage，存储
 + Storage Account，存储账户
 + Strangler Application Pattern，绞杀者模式<sup>4</sup>
++ strategic development tools，战略设计工具 <sup>5</sup>，战略开发工具
 + Stream，流
 + structure，结构
 + Structured Systems Analysis and Design Methodology，结构化系统分析和设计方法（SSADM）
@@ -786,6 +789,7 @@
 ## T
 
 + Table，表
++ tactical development tools，战术实施工具 <sup>5</sup>，战术开发工具
 + TAP, ，基于任务的异步模式
 + targeted testing，目标测试
 + Task-based Asynchronous Pattern，基于任务的异步模式
@@ -924,3 +928,5 @@
 [3] 摘自《Microsoft.NET 企业级应用架构设计》一书。
 
 [4] 摘自《微服务设计》一书。
+
+[5] 摘自《领域驱动设计精粹》一书
