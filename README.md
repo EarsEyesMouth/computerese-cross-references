@@ -15,6 +15,8 @@
 - affinity group，地缘组
 - agent，代理
 - agent-based interface，代理人界面
+- Aggregate，聚合
+- Aggregate Root，聚合根
 - Agile，敏捷方法论
 - agile practice，敏捷实践
 - agile process，敏捷流程
@@ -34,6 +36,7 @@
 - application life cycle，应用程序生命周期
 - application pool，应用程序池
 - Application Programming Interface，应用程序编程接口（API）
+- Application Service，应用服务
 - architecture，体系机构，结构
 - architecture decay，架构腐坏
 - Architecture Style，架构风格
@@ -179,6 +182,7 @@
 - compatibility，兼容性
 - Competing Consumer pattern，消费者竞争模式<sup>4</sup>
 - Component Object Model，组件对象模型（COM）
+- Composability，组合性
 - composite formatting，复合格式化
 - Composite Pattern，复合模式
 - concurrency conflicts，并发冲突
@@ -196,7 +200,7 @@
 - content，内容
 - context，上下文
 - context map, 上下文映射图，上下文地图 <sup>5</sup>
-- Comtext Mapping，上下文映射 <sup>5</sup>
+- Context Mapping，上下文映射 <sup>5</sup>
 - contextual keyword，上下文关键字
 - continuous integration，持续集成
 - contribute，贡献
@@ -208,6 +212,7 @@
 - Convert Procedural Design to Objects，将过程化设计转化为对象设计<sup>1</sup>
 - cookie，Cookie
 - core，内核；.NET Core 的简写（能且仅能与 .NET Framework 的简写 `nfx` 同时出现，作如 `nfx/core`，单独使用时应为全称 `.NET Core`）
+- core domain，核心领域
 - corruption，损毁
 - Cosmetic issue，外观上问题
 - Cost of Change，更改开销（CoC）
@@ -229,6 +234,7 @@
 - crytography，密码术
 - CTS，公共类型系统（Common Type System）
 - cursor，光标
+- Customizability，可定制性
 - cybraian，电脑族
 - cyberspace，电脑空间
 - cycle time，周期时间
@@ -279,6 +285,9 @@
 - DLL，动态链接库（Dynamic Link Library）
 - Document Object Model，文档对象模型（DOM）
 - domain-driven design，领域驱动设计（DDD）
+- Domain Event，领域事件
+- Domain Model，领域模型
+- Domain Service，领域服务
 - Domain Specific Language，领域特定语言（DSL）
 - DRY 原则，不自我重复原则（Don't Repeat Yourself），“不要重复你自己<sup>3</sup>”
 - duck-typing，鸭子类型
@@ -312,10 +321,12 @@
 - Event-based Asynchronous Pattern，基于事件的异步模式（EAP）
 - event data pump，时间数据泵<sup>4</sup>
 - event sourcing，事件源
+- Evolvability，可进化性
 - exception handling，异常处理
 - Exclusive OR，异或（XOR）
 - explanatory figures，图示
 - Extensible Markup Language，可扩展标记语言（XML）
+- Extensibility，可扩展性
 - extra large，特大型
 - extra small，特小型
 - Extract Class，提炼类<sup>1</sup>
@@ -377,7 +388,7 @@
 - HATEOAS，超媒体作为程序状态的引擎（Hypermedia As The Engine Of Application State）<sup>4</sup>
 - HDD，硬盘（Hard Disk Drive）
 - header，头；标头；表头
-- Hexagonal Architecture，六边形架构理论<sup>4</sup>
+- Hexagonal Architecture，六边形架构<sup>4</sup>，由 Alistair Cockburn 提出
 - HMAC，基于哈希的小系列码（Hash-based Message Authentication）<sup>4</sup>
 - Hide Delegate，隐藏“委托关系”<sup>1</sup>
 - Hide Method，隐藏函数<sup>1</sup>
@@ -456,6 +467,7 @@
 
 - Language Integrated Query，语言集成查询（LINQ）
 - Large，大型
+- Layered Architecture，分层架构
 - Leaky Encapsulation，泄露的封装<sup>2</sup>
 - Legacy system，遗留系统
 - license，许可证
@@ -541,6 +553,7 @@
 - One rule, one place，一个规则，实现一次
 - One-Size-Fits-All，OSFA
 - one-time token，一次性令牌
+- Onion Architecture，洋葱架构，由 Jeffrey Palermo 提出
 - Open Closed Principle，开闭原则（OCP）
 - Open System Interconnection，开放式系统互联（OSI）
 - Optical Character Recognition，光学字符识别（OCR）
@@ -673,7 +686,7 @@
 - Replace Type Code with State/Strategy，以 State/Strategy 取代类型码<sup>1</sup>
 - Replace Type Code with Subclass，以子类取代类型码<sup>1</sup>
 - reporting，报表
-- Repository，存储库；仓储；仓库
+- Repository，存储库；仓储；仓库；资源库
 - REpresentational State Transfer，表述性状态转移、表征性状态传输、具象状态传输（REST）
 - request pipeline，请求管道
 - Requirements Churn，需求波动
@@ -777,6 +790,7 @@
 - Subnet，子网
 - Subordinate，附属
 - Sub-region，子地域
+- Subdomain，子领域
 - Subscription，订阅
 - Substitute Algorithm，替换算法<sup>1</sup>
 - SW，Apache SkyWalking 的简写
@@ -819,6 +833,7 @@
 - TPL，任务并行库
 - (Code) Tracing，（代码）追踪
 - Transaction，事务
+- Transaction Script，事务脚本
 - Transient Error，瞬时错误
 - Transparent Data Encryption，透明数据加密<sup>4</sup>
 - Transportation Network Providers，交通网络提供者（TNP）
@@ -838,6 +853,7 @@
 - Unexploited Encapsulation，未利用封装<sup>2</sup>
 - Unfactored Hierarchy，未归并的层次结构<sup>2</sup>
 - Unified Modeling Language，统一建模语言（UML）
+- Uniform Interface，统一接口
 - unit of work，工作单元
 - Unit test，单元测试
 - unit test coverage，单元测试覆盖率
@@ -851,6 +867,7 @@
 
 ## V
 
+- Value Object，值对象
 - variant，变体
 - Variation Encapsulation Principle，变化封装原则（VEP）
 - versionable interaction contract，可以进行版本控制的交互契约
