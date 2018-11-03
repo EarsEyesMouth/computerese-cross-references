@@ -62,7 +62,6 @@
 - autonomous，独立性
 - availability，可用性
 - availability set，可用性集
-- Average concurrent users，平均同时在线玩家人数（ACU）
 - AZs，可用性区域（Availability Zones，亚马逊 AWS 中数据中心的叫法）<sup>4</sup>
 
 ## B
@@ -81,7 +80,6 @@
 - behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
 - Behavioral error，行为错误
 - BFF，为前端服务的后端（Backends For Frontends）<sup>4</sup>
-- BGC，品牌产生的内容（Brand-Generated Content）
 - Big Ball of Mud，大泥球（BBM）
 - big data，大数据
 - Big Design Up Front，大优先设计（BDUF）
@@ -99,7 +97,6 @@
 - box，装箱
 - bps，bits per second，比特/秒
 - Brainstorming，头脑风暴（脑暴）
-- Brand-Generated Content，品牌产生的内容（BGC）
 - BRD，商业需求文档（Business Requirements Document）
 - breakpoint，断点
 - broadcast，（无线电或电视）广播
@@ -163,7 +160,6 @@
 - CLS，公共语言规范（Common Language Specification）
 - cluster，集群
 - clustered index，聚集索引
-- CMS，内容管理系统（Content Management System）
 - co-occurring smells，同时出现的坏味<sup>2</sup>
 - coaxial cable，同轴电缆
 - COBIT，信息和相关技术的控制目标，Control Objectives for Information and Related Technology<sup>4</sup>
@@ -213,7 +209,6 @@
 - Contributor License Agreement，贡献者许可协议
 - convention，约定
 - covariance，协变
-- Content Management System，内容管理系统（CMS）
 - contravariance，逆变
 - convert，转换
 - Convert Procedural Design to Objects，将过程化设计转化为对象设计<sup>1</sup>
@@ -223,10 +218,6 @@
 - corruption，损毁
 - Cosmetic issue，外观上问题
 - Cost of Change，更改开销（CoC）
-- Cost Per Action，每次行动成本（CPA）
-- Cost Per Click，每次点击成本（CPC）
-- Cost Per Purchase，每次购买成本（CPP）
-- Cost Per Response，每次回应成本（CPR），以浏览者的每一个回应计费。
 - COTS，现成的商业软件（Commercial Off-The Shelf）<sup>4</sup>
 - counterpoint，对位<sup>4</sup>
 - Coupling count，耦合数：当一个方法被调用时传给它以及从它传出来的值的数目。如果该方法没有返回值，则耦合数就是它的参数数目。否则就是参数数目加 1。如果你想要在没有测试的情况下提取出一个消防法的话，计算一下它的耦合数是很有意义的。
@@ -244,9 +235,7 @@
 - cruft，残留
 - crytography，密码术
 - CTS，公共类型系统（Common Type System）
-- CUI，对话式用户界面设计（VUI，Voice User Interface）
 - cursor，光标
-- Customer Acquisition Cost，用户获取成本（CAC）
 - Customizability，可定制性
 - cybraian，电脑族
 - cyberspace，电脑空间
@@ -258,7 +247,6 @@
 
 ## D
 
-- Daily Active User，日活跃量（DAU），用于反应网站、互联网应用或网络游戏的运营情况。
 - dashboard，仪表盘
 - data access layer，数据访问层
 - Data Storage as a Service，数据存储即服务（DaaS）
@@ -358,7 +346,6 @@
 
 ## F
 
-- FAB，悬浮操作按钮（Floating Action Button）
 - failover，容错转移
 - failure domain，故障域
 - fake object，伪对象：在测试中伪装成一个类的合作者的对象
@@ -370,7 +357,6 @@
 - feature sketch，特性草图
 - feed，聚合（资源聚合）
 - first-party，第一方
-- Floating Action Button，悬浮操作按钮（FAB），Material Design 中的一种设计语言，现在 iOS 内也会使用，常置于页面右下角。
 - Floopy Disk Drive，软盘（FDD）
 - follow up，跟进
 - foreign key，外键
@@ -383,7 +369,6 @@
 - FRD，功能需求文档（Functional Requirements Document）
 - free，免费
 - free function，自由函数：一个不属于任何类的函数。在 C 和其他过程式语言中，自由函数被简单地称为函数；在 C++ 中被称为非成员函数。在 Java 和 C# 中没有自由函数。
-- FUI，幻想界面（Fantasy User Interface）；科幻界面（Fictional User Interface）；假界面（Fake User Interface）；未来主义界面（Futuristic User Interface）；电影界面（Film User Interface）
 - Functional Requirements Document，功能需求文档（FRD）
 - full-duplex，全双工
 - Full Packaged Product，零售版（FPP）
@@ -411,7 +396,6 @@
 - Hackable，修改方便（根据《Web API 设计与开发》一书之翻译）
 - HAL，超文本应用程序语言（Hypertext Application Language）<sup>4</sup>
 - handle，句柄
-- Handset User Interface，手持设备用户界面（HUI）
 - Hard Disk Drive，硬盘（HDD）
 - HATEOAS，超媒体作为程序状态的引擎（Hypermedia As The Engine Of Application State）<sup>4</sup>
 - HCI，人机交互（Human-Computer Interaction），属于研究层面，是人与计算机之间传递、交换信息的媒介和对话接口，是计算机系统的重要组成部分。
@@ -466,8 +450,6 @@
 - instantiation，实例化
 - Insufficient Modularization，不充分的模块化<sup>2</sup>
 - Interaction-based testing，基于交互的测试
-- Interaction Design，交互设计（IxD）
-- Interactive Voice Response，交互式语言应答（IVR）
 - Intercept，截取
 - interception point，拦截点：可以编写测试来感知某些条件的地方
 - intermediate language，中间语言（IL）
@@ -489,8 +471,6 @@
 - iteration，迭代
 - iterator，迭代器
 - iterator protocol，迭代器协议
-- IVR，交互式语音应答（Interactive Voice Response）
-- IxD，交互设计（Interaction Design），是定义、涉及人造系统的行为的设计领域。
 
 ## J
 
@@ -506,17 +486,14 @@
 - Key Opinion Leader，关键意见领袖（KOL），俗称大 V
 - Key Performance Indicator，关键绩效考核指标（KPI）
 - Key-Value Pair，键-值对
-- Key Vision，主视觉，视觉海报等平面类设计相关（KV）
 - KISS 原则，保持简单原则（Keep It Simple Silly），“简单是一切之本<sup>3</sup>”
 - KPI，关键绩效考核指标（Key Performance Indicator）
-- KV，主视觉（Key Vision）
 
 ## L
 
 - Language Integrated Query，语言集成查询（LINQ）
 - Large，大型
 - Layered Architecture，分层架构
-- LBS，基于位置服务（Location Based Service）
 - Leaky Encapsulation，泄露的封装<sup>2</sup>
 - Legacy system，遗留系统
 - license，许可证
@@ -534,7 +511,6 @@
 - load shedding，减载<sup>4</sup>
 - LOC，代码行数
 - Local Function，局部函数
-- Location Based Service，基于位置服务（LBS）
 - lock-step release，同步发布<sup>4</sup>
 - log，日志
 - loop，自循环
@@ -556,7 +532,6 @@
 - Massive Multiplayer Online Role-Playing Game，大型多人在线角色扮演游戏（MMORPG）
 - Massively Multiplayer Online Role-Playing Game，大型多人在线角色扮演游戏（MMORPG）
 - Mathematical Markup Language，数学标记语言（MathML）
-- MAU，月活跃数量（Monthly Active User）
 - Mean Time Between Failures，平均故障时间间隔（MTBF）<sup>4</sup>
 - Mean Time To Repair，平均修复时间（MTTR）<sup>4</sup>
 - Media Service，媒体服务
@@ -574,7 +549,6 @@
 - Mixed Reality，混合现实（MR）
 - Mobile Service，移动服务
 - Mock Object，模拟对象，仿对象：在内部对条件进行断言的伪对象
-- Monthly Active User，月活跃数量（MAU）
 - Move Field，搬移字段<sup>1</sup>
 - Move Method，搬移函数<sup>1</sup>
 - MRD，市场需求文档（Market Requirement Document）
@@ -607,8 +581,6 @@
 - Object/Relational Mapper，对象/关系映射器（ORM，O/RM）
 - object seam，对象接缝：在对象连接处可以通过替换一个对象为另一个对象来“更替”行为。在面向对象语言中，通常通过子类化产品代码中的类并重写其方法来实现这一点。
 - Objectives and Key Results，目标与关键成果法（OKR）
-- Occupationally-generated Content，职业生产内容（OGC）
-- OGC，职业生产内容（Occupationally-generated Content）
 - On-demand (media)，点播（媒体）
 - Once and Only Once，一次且仅一次<sup>3</sup>(OAOO)
 - One rule, one place，一个规则，实现一次
@@ -645,7 +617,6 @@
 - pattern，模式
 - Pay as You Go，即用即付
 - PC，个人计算机（Personal Computer）
-- Peak concurrent users，最高同时在线玩家人数（PCU）
 - peek，查看
 - peering rules，对等交互规则<sup>4</sup>
 - Percent Encoding，百分号编码
@@ -654,7 +625,6 @@
 - Person-to-Person，个人对个人（P2P）
 - Personal Computer，个人计算机（PC）
 - Pessimistic Concurrency，悲观并发控制
-- PGC，专业生产内容（Professional Generated Content）
 - PHAME，由 Booch 提出的对象模型的 4 个主要元素的设计规则的统称，即 Principle of Hierarchy, Abstraction, Modularization, and Encapsulation，层次结构、抽象、模块化与封装原则
 - pinch point，汇点：影响结构图中的隘口和交通要冲，在汇点编写测试的好处就是只需针对少数几个方法编写测试，就能达到探测大量其他方法的改动的目的。
 - placeholder，占位符
@@ -686,8 +656,6 @@
 - Product Requirements Document，产品需求文档（PRD）
 - production，生产（环境）
 - production load，生产负载<sup>4</sup>
-- Professional Generated Content，专业生产内容（PGC）
-- Professional User Generated Content，船业用户生产内容（PUGC）
 - Program Managment Document，项目管理文档（PMD）
 - programming by difference，差异式编程
 - proof of concept，概念验证
@@ -697,7 +665,6 @@
 - prototype，原型
 - proxy，代理
 - public cloud，公有云
-- PUGC，专业用户生产内容（Professional User Generated Content）
 - Pull Up Constructor Body，构造函数本体上移<sup>1</sup>
 - Pull Up Field，字段上移<sup>1</sup>
 - Pull Up Method，函数上移<sup>1</sup>
@@ -823,7 +790,6 @@
 - session jacking，会话劫持
 - Setting，设置
 - Shared，共享；分享
-- Shopping cart，购物车
 - Sign in，登录
 - Sign out，注销
 - Signature，签名
@@ -838,9 +804,7 @@
 - Small，小型
 - smart endpoint，智能端点<sup>4</sup>
 - snapshot，快照
-- SNS，社会性网络服务（Social Networking Services）
 - SOA，面向服务的架构（Service-Oriented Architecture）
-- Social Networking Services，社会性网络服务（SNS）
 - Software as a Service，软件即服务（Saas）
 - source lines of code，源代码行数（SLOC）
 - Speculative Hierarchy，凭空想象的层次结构<sup>2</sup>
@@ -922,11 +886,7 @@
 - UAT，用户验收测试（User Acceptance Testing）<sup>4</sup>
 - Ubiquitous Computing，普存计算
 - Ubiquitous Language，统一语言
-- UCD，用户中心设计（User Centered Design）
 - UDDI，通用描述、发现与集成服务（Universal Description, Discovery, and Integration）
-- UED，用户体验设计（User Experience Design）
-- UGC，用户产生的内容（User Generated Content）
-- UGD，用户增长设计（User Growth Design）
 - UI，用户界面，包括视觉设计、交互设计和用户体验（User Interface）
 - Uncommitted，未提交（的）
 - Update Domain，更新域
@@ -949,15 +909,9 @@
 - Usability Review，可用性评估
 - User Acceptance Test，接受度测试（UAT）
 - User Analysis，用户分析
-- User Centered Design，用户中心设计（UCD），是在设计过程中以用户体验为设计决策的中心，强调用户优先的设计模式，简单的说，就是在进行产品设计、开发、维护时从用户的需求和用户的感受出发，围绕用户为中心进行产品设计、开发及维护，而不是让用户去适应产品。
 - User Datagram Protocol，用户数据报协议（UDP）
-- User Experience，用户体验（UX/UE）
-- User Experience Design，用户体验设计（UED）
-- User Generated Content，用户产生的内容（UGC）
-- User Growth Design，用户增长设计（UGD），主张「以用户为中心，以增长为导向」。
 - User Interface，用户界面，包括视觉设计、交互设计和用户体验（UI）
 - User Mode Stack，用户模式栈
-- UX/UE，用户体验（User Experience）
 
 ## V
 
@@ -976,17 +930,14 @@
 - Virtual Private Network，虚拟专用网络（VPN），在公用网络上建立专用网络，进行加密通讯，如网关通过对数据包的加密和数据包目标地址的转换实现远程访问。
 - Virtual Reality，虚拟现实（VR）
 - viscosity，粘稠性
-- Visual Design，视觉设计
 - VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 - VOL，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 - Volume Licensing for Organizations，团体批量许可证；大量采购授权合约（VOL 或 VLO）
 - VPC，虚拟私有云（Virtual Private Cloud）<sup>4</sup>
 - VPN，虚拟专用网络（Virtual Private Network）
-- VUI，对话式用户界面设计（Voice User Interface）
 
 ## W
 
-- WAU，周活跃数量（Weekly Active User）
 - WCF，分布式通信（Windows Comminication Foundation）
 - Weak Generational Hypothesis，弱分代假设
 - Wearable Device，可穿戴设备
@@ -995,8 +946,6 @@
 - Web Service，网络服务
 - Web Service Definition Language，Web 服务定义语言（WSDL）
 - Web Sites，网站
-- Web User Interface，网页风格用户界面（WUI）
-- Weekly Active User，周活跃数量（WAU）
 - Weighted Method per Class，类累计圈复杂度（WMC）
 - WF，工作流（WIndows Workflow）
 - Wide Hierarchy，过宽的层次结构<sup>2</sup>
@@ -1016,7 +965,6 @@
 - World Wide Web Consortium，万维网联盟（W3C）
 - WPF，富客户端表示（Windows Presentation Foundation）
 - writebehind，后写式
-- WUI，网页风格用户界面（Web User Interface）
 
 ## X
 
