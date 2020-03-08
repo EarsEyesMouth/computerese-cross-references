@@ -60,6 +60,7 @@
 - automated unit testing，自动化单元测试
 - automation，自动化
 - autonomous，独立性
+- auxiliary database，辅助数据库
 - availability，可用性
 - availability set，可用性集
 - AZs，可用性区域（Availability Zones，亚马逊 AWS 中数据中心的叫法）<sup>4</sup>
@@ -161,6 +162,7 @@
 - cluster，集群
 - clustered index，聚集索引
 - co-occurring smells，同时出现的坏味<sup>2</sup>
+- CoAP，受限应用协议
 - coaxial cable，同轴电缆
 - COBIT，信息和相关技术的控制目标，Control Objectives for Information and Related Technology<sup>4</sup>
 - CoC，更改开销（Cost of Change）
@@ -476,6 +478,7 @@
 
 - Job，作业
 - Job Description，岗位描述（JD）
+- JOSE，JSON 对象签名和加密
 - Json Web Token，JSON Web 令牌<sup>4</sup>
 - just-in-time compilation，即时编译，JIT 编译
 - JVM，Java 虚拟机（Java Virtual Machine）
@@ -494,6 +497,7 @@
 - Language Integrated Query，语言集成查询（LINQ）
 - Large，大型
 - Layered Architecture，分层架构
+- LDAP，Lightweight Directory Access Protocol，轻型目录访问协议
 - Leaky Encapsulation，泄露的封装<sup>2</sup>
 - Legacy system，遗留系统
 - license，许可证
@@ -644,6 +648,8 @@
 - precondition，前提，前置条件
 - presentation layer，表现层
 - Preserve Whole Object，保持对象完整<sup>1</sup>
+- primary database，主数据库
+- primary storage，主存储
 - primitive obsession，基本类型偏执<sup>2</sup>
 - principal，主体<sup>4</sup>
 - private cloud，私有云
@@ -753,6 +759,7 @@
 - Saas，软件即服务（Software As A Service）
 - salted password hashing，加盐密码哈希<sup>4</sup>
 - SAN，存储区域网络（Storage Area Network）<sup>4</sup>
+- SASL，简单认证与安全层
 - Scalability，缩放性
 - Scalable Vector Graphic，可伸缩矢量图（SVG）
 - Scale，缩放
@@ -767,6 +774,7 @@
 - Search Engine，搜索引擎（SE）
 - Search Engine Marketing，搜索引擎营销（SEM）
 - Search Engine Optimization，搜索引擎优化（SEO）
+- secondary storage，二级存储
 - Secure Socket Layer，安全套接层（SSL）
 - Security，安全（性）
 - Security Development Lifecycle，安全开发生命周期<sup>4</sup>
@@ -800,6 +808,7 @@
 - Singleton Pattern，单例模式
 - Site，站点
 - Site-to-Site，站点到站点
+- skip list，跳跃表
 - SLA，服务水平协议、服务等级协议（Service Level Agreement）
 - Small，小型
 - smart endpoint，智能端点<sup>4</sup>
@@ -869,6 +878,7 @@
 - Timestamp，时间戳
 - Throughput，吞吐量
 - TNP，交通网络提供者（Transportation Network Providers）
+- TOFU，首次使用时信任（Trust On First Use）
 - Topic，主题
 - Topology，拓扑结构
 - Token，令牌
