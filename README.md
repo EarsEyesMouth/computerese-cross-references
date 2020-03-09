@@ -48,6 +48,7 @@
 - Aspect-Oriented Programming，面向切面编程（AOP）
 - aspect ratio，屏幕高宽比
 - assembly，程序集
+- associative array，关联数组
 - Asynchronous Programming Model，异步编程模型（APM）
 - ATM，asynchronous transfer mode，异步传输模式
 - atomic opreation，原子操作
@@ -215,6 +216,7 @@
 - convert，转换
 - Convert Procedural Design to Objects，将过程化设计转化为对象设计<sup>1</sup>
 - cookie，Cookie
+- copy-on-write，写时复制
 - core，内核；.NET Core 的简写（能且仅能与 .NET Framework 的简写 `nfx` 同时出现，作如 `nfx/core`，单独使用时应为全称 `.NET Core`）
 - core domain，核心领域
 - corruption，损毁
@@ -512,6 +514,7 @@
 - living style guides，活样式指导<sup>4</sup>
 - load-balancing，负载平衡
 - load balancer，负载平衡器
+- load factor，负载因子
 - load shedding，减载<sup>4</sup>
 - LOC，代码行数
 - Local Function，局部函数
@@ -532,6 +535,7 @@
 - Man-In-The-Middle Attack，中间人攻击（MITM 攻击）
 - Management Key，管理密钥
 - manifest，清单
+- map，映射
 - Market Requirement Document，市场需求文档（MRD）
 - Massive Multiplayer Online Role-Playing Game，大型多人在线角色扮演游戏（MMORPG）
 - Massively Multiplayer Online Role-Playing Game，大型多人在线角色扮演游戏（MMORPG）
@@ -845,6 +849,7 @@
 - Subscription，订阅
 - Substitute Algorithm，替换算法<sup>1</sup>
 - SW，Apache SkyWalking 的简写
+- symbol table，符号表
 - Synchronized Multimedia Integration Language，同步多媒体集成语言（SMIL）
 - syntactic sugar，语法糖
 - System Under Test，测试目标系统（SUT）
