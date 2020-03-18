@@ -37,6 +37,7 @@
 - application pool，应用程序池
 - Application Programming Interface，应用程序编程接口（API），目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而又无需访问源码，或理解内部工作机制的细节。
 - Application Service，应用服务
+- arbitrary error，任意错误
 - architecture，体系机构，结构
 - architecture decay，架构腐坏
 - Architecture Style，架构风格
@@ -147,6 +148,7 @@
 - Characterization test，特征测试：描述软件某部分的当前行为的测试，当你修改代码时能够用来保持行为
 - check in，签入
 - check out，签出
+- checksum，校验和
 - chip，芯片
 - choreography，协同
 - CI，持续集成（Continuous Integration）<sup>4</sup>
