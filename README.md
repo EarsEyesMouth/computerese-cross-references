@@ -490,8 +490,11 @@
 ## K
 
 - Key，密钥
+- key-event notification，键事件通知
 - Key Opinion Leader，关键意见领袖（KOL），俗称大 V
 - Key Performance Indicator，关键绩效考核指标（KPI）
+- Key Space，键空间
+- key-space notification，键空间通知
 - Key-Value Pair，键-值对
 - KISS 原则，保持简单原则（Keep It Simple Silly），“简单是一切之本<sup>3</sup>”
 - KPI，关键绩效考核指标（Key Performance Indicator）
@@ -578,6 +581,7 @@
 - NFC，近距离无线通信（Near Field Communication）
 - nfx，.NET Framework（.NET 框架）
 - Non-clustered Index，非聚集索引
+- non-transactional pipeline，非事务型流水线
 - node，节点
 - normalize，规格化
 - notification，通知
@@ -602,6 +606,7 @@
 - Operating System，操作系统（OS）
 - Optical Character Recognition，光学字符识别（OCR）
 - Optimistic Concurrency，乐观并发控制
+- optimistic locking，乐观锁
 - orchestration，编排
 - Orchestration Layer，策略编排层
 - Ordering Principal，良序原则
@@ -635,6 +640,7 @@
 - Person-to-Person，个人对个人（P2P）
 - Personal Computer，个人计算机（PC）
 - Pessimistic Concurrency，悲观并发控制
+- pessimistic locking，悲观锁
 - PHAME，由 Booch 提出的对象模型的 4 个主要元素的设计规则的统称，即 Principle of Hierarchy, Abstraction, Modularization, and Encapsulation，层次结构、抽象、模块化与封装原则
 - pinch point，汇点：影响结构图中的隘口和交通要冲，在汇点编写测试的好处就是只需针对少数几个方法编写测试，就能达到探测大量其他方法的改动的目的。
 - placeholder，占位符
@@ -804,6 +810,7 @@
 - session jacking，会话劫持
 - Setting，设置
 - Shared，共享；分享
+- shared-memory data structure，共享内存数据结构
 - Sign in，登录
 - Sign out，注销
 - Signature，签名
