@@ -155,6 +155,7 @@
 - cipher，密码
 - claim，声明
 - class definition，类定义
+- Clean Object-oriented and Layered Architecture，整洁面向对象分层架构（COLA）
 - CLI，公共语言基础结构（Common Language Infrastructure）
 - client-server，客户端-服务器
 - clone，克隆，复制
@@ -170,6 +171,7 @@
 - COBIT，信息和相关技术的控制目标，Control Objectives for Information and Related Technology<sup>4</sup>
 - CoC，更改开销（Cost of Change）
 - code smell，代码味道
+- COLA，整洁面向对象分层架构，Clean Object-oriented and Layered Architecture
 - Collapse Hierarchy，折叠继承关系<sup>1</sup>
 - comcurrency，并发
 - command，命令
