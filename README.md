@@ -966,7 +966,7 @@
 
 ## W
 
-- WCF，分布式通信（Windows Comminication Foundation）
+- WCF，Windows 通讯开发平台（Windows Comminication Foundation）
 - Weak Generational Hypothesis，弱分代假设
 - Wearable Device，可穿戴设备
 - Web Role，网站角色
