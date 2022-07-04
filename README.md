@@ -69,6 +69,7 @@
 
 ## B
 
+- BaaS，Battery as a Service，电池即服务（电池租用商业模式）
 - Backend as a Service，后端即服务（BaaS）
 - backpane，底板
 - backward compatibility，向后兼容性
@@ -257,6 +258,7 @@
 
 ## D
 
+- DaaS，Data as a Service，数据即服务
 - dashboard，仪表盘
 - data access layer，数据访问层
 - Data Storage as a Service，数据存储即服务（DaaS）
@@ -288,6 +290,7 @@
 - device，设备
 - DfT，为可测试性而设计
 - DI，依赖注入（dependenct injection）
+- DIaaS，Data intelligence as a Service，数据智能即服务（出自2022年6月29日，阿里常规线上新品牌发布会）
 - diagnostics，诊断
 - directed graph，有向图
 - directive，指令
@@ -628,6 +631,7 @@
 - packet sniffing，分组嗅探
 - Page Blob，页 BLOB
 - Parameterize Method，令函数携带参数<sup>1</sup>
+- Partial Translate，部分翻译（出自 Chrome 浏览器）
 - partition，分区
 - partition tolerabce，分区容忍性<sup>4</sup>
 - PascalCase，Pascal 大小写
@@ -997,6 +1001,7 @@
 ## X
 
 - X.509v3 certificate，X.509 证书
+- XaaS，Everything as a Service，一切皆服务
 - XML，可扩展标记语言（Extensible Markup Language）
 - XOR，异或（Exclusive OR）
 - XUL，XML 用户界面语言（XML User Interface Language）
