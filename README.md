@@ -328,6 +328,7 @@
 - elasticity，弹性
 - ELBs，弹性负载均衡器（Elastic Load Balancers）<sup>4</sup>
 - Element (XML)，元素
+- Elvis Operator，埃尔维斯运算符
 - Encapsulate Collection，封装集合<sup>1</sup>
 - Encapsulate Downset，封装向下转型<sup>1</sup>
 - Encapsulate Field，封装字段<sup>1</sup>
@@ -594,6 +595,7 @@
 - notification，通知
 - notification hub，通知中心
 - null-coalescing，空值合并
+- Null coalescing operator，空值合并运算符、空值结合运算符
 - N-Tier，N 层（结构）
 
 ## O
@@ -707,6 +709,7 @@
 ## R
 
 - Rack，机架
+- RAII，Resource Acquisition Is Initialization，资源获取即初始化
 - Rapid Application Development，快速应用程序开发（RAD）
 - RDBMS，关系型数据库管理系统（Relational Database Management System）
 - Reactive extensions，响应式扩展（Rx）<sup>4</sup>
@@ -759,6 +762,8 @@
 - Requirements Churn，需求波动
 - reserved，专属
 - resolution，解析
+- Resource Acquisition Is Initialization，资源获取即初始化（RAII）
+- Resource Release Is Destruction，在构造时没有“获取”资源，但在析构时释放资源（RRID），一种 RAII 的特殊用法
 - Resource-Oriented Architecture，面向资源的架构(ROA)
 - Response Group，响应群
 - Return on Investment，投资回报（ROI）
@@ -773,6 +778,7 @@
 - router，路由器
 - row，行
 - RPC，远程过程调用（Remote Procedure Call）<sup>4</sup>
+- RRID，Resource Release Is Destruction，在构造时没有“获取”资源，但在析构时释放资源，一种 RAII 的特殊用法
 
 ## S
 
@@ -819,6 +825,7 @@
 - Setting，设置
 - Shared，共享；分享
 - shared-memory data structure，共享内存数据结构
+- Short-circuit evaluation，短路求值
 - Sign in，登录
 - Sign out，注销
 - Signature，签名
