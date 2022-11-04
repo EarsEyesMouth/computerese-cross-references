@@ -52,7 +52,7 @@
 - associative array，关联数组
 - Asynchronous Programming Model，异步编程模型（APM）
 - ATM，asynchronous transfer mode，异步传输模式
-- atomic opreation，原子操作
+- atomic operation，原子操作
 - atomic transaction，原子事务
 - atomicity，原子性
 - attribute，特性
@@ -203,7 +203,7 @@
 - connection string，连接字符串
 - Consolidate Conditional Expression，合并条件表达式<sup>1</sup>
 - Consolidate Duplicate Conditional Fragments，合并重复的条件片段<sup>1</sup>
-- consistenct，一致性
+- consistency，一致性
 - constructor，构造函数
 - container，容器
 - Container As A Service，容器即服务（CaaS）<sup>4</sup>
@@ -241,10 +241,10 @@
 - Cross Domain，跨域
 - Cross-browser ，跨浏览器
 - Cross-platform ，跨平台
-- Cross-Functuinal Requirement，跨功能需求（CFR）<sup>4</sup>
+- Cross-Functional Requirement，跨功能需求（CFR）<sup>4</sup>
 - CRT，cathode ray tube，阴极射线管
 - cruft，残留
-- crytography，密码术
+- cryptography，密码术
 - CTS，公共类型系统（Common Type System）
 - cursor，光标
 - Customizability，可定制性
@@ -279,7 +279,7 @@
 - Deficient Encapsulation，不充分的封装<sup>2</sup>
 - Definition of Done，完成的定义（DoD）
 - denial-of-service attacks，拒绝服务攻击<sup>4</sup>
-- dependenct injection，依赖注入（DI）
+- dependency injection，依赖注入（DI）
 - dependency，依赖
 - dependency digraph，依赖有向图
 - deployment，部署
@@ -289,7 +289,7 @@
 - Design Requirements Document，交互设计说明文档（DRD）
 - device，设备
 - DfT，为可测试性而设计
-- DI，依赖注入（dependenct injection）
+- DI，依赖注入（dependency injection）
 - DIaaS，Data intelligence as a Service，数据智能即服务（出自2022年6月29日，阿里常规线上新品牌发布会）
 - diagnostics，诊断
 - directed graph，有向图
@@ -352,7 +352,7 @@
 - extra small，特小型
 - Extract Class，提炼类<sup>1</sup>
 - Extract Hierarchy，提炼继承体系<sup>1</sup>
-- Extract Inerface，提炼接口<sup>1</sup>
+- Extract Interface，提炼接口<sup>1</sup>
 - Extract Method，提炼函数<sup>1</sup>
 - Extract Subclass，提炼子类<sup>1</sup>
 - Extract Superclass，提炼超类<sup>1</sup>
@@ -367,11 +367,11 @@
 - fan-out，扇出
 - fat client，胖客户端
 - FCL，.NET Framework 类库（Framework Class Library）
-- FDD，软盘（Floopy Disk Drive）
+- FDD，软盘（Floppy Disk Drive）
 - feature sketch，特性草图
 - feed，聚合（资源聚合）
 - first-party，第一方
-- Floopy Disk Drive，软盘（FDD）
+- Floppy Disk Drive，软盘（FDD）
 - follow up，跟进
 - foreign key，外键
 - Form Template Method，塑造模板函数<sup>1</sup>
@@ -635,7 +635,7 @@
 - Parameterize Method，令函数携带参数<sup>1</sup>
 - Partial Translate，部分翻译（出自 Chrome 浏览器）
 - partition，分区
-- partition tolerabce，分区容忍性<sup>4</sup>
+- Partition tolerance，分区容忍性<sup>4</sup>
 - PascalCase，Pascal 大小写
 - pass-through，直托
 - passive，被动（的）
@@ -655,7 +655,7 @@
 - pinch point，汇点：影响结构图中的隘口和交通要冲，在汇点编写测试的好处就是只需针对少数几个方法编写测试，就能达到探测大量其他方法的改动的目的。
 - placeholder，占位符
 - Platform as a Service，平台即服务（Paas）
-- PMD，项目管理文档（Program Managment Document）
+- PMD，项目管理文档（Program Management Document）
 - Point-to-Site，点到站点
 - polling，轮询
 - polymorphism，多态
@@ -684,7 +684,7 @@
 - Product Requirements Document，产品需求文档（PRD）
 - production，生产（环境）
 - production load，生产负载<sup>4</sup>
-- Program Managment Document，项目管理文档（PMD）
+- Program Management Document，项目管理文档（PMD）
 - programming by difference，差异式编程
 - proof of concept，概念验证
 - proportional error rate，错误率比例<sup>4</sup>
@@ -811,8 +811,8 @@
 - Self-signed Certificate，自签名证书
 - semantic monitoring，语义监控<sup>4</sup>
 - Semantic Versioning，语义化版本控制
-- Seqarate Domain from Presentation，将领域和表述/显示分离<sup>1</sup>
-- Seqarate Query from Modifier，将查询函数和修改函数分离<sup>1</sup>
+- Separate Domain from Presentation，将领域和表述/显示分离<sup>1</sup>
+- Separate Query from Modifier，将查询函数和修改函数分离<sup>1</sup>
 - Serializable，可序列化
 - Server Affinity，服务器绑定
 - Server Driven Content Negotiation，服务器驱动的内容协商
