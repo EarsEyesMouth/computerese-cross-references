@@ -611,7 +611,6 @@
 ## N
 
 - naming collisions 命名冲突
-
 - Namespace，命名空间，名称空间
 - native code，本机代码
 - NCC，.NET Core 社区（.NET Core Community）/.NET 中国社区（.NET China Community）
@@ -1081,13 +1080,8 @@
 # 注释
 
 [1] 重构列表，摘自《重构》一书。
-
 [2] 坏味道列表，摘自《软件设计重构》一书。
-
 [3] 摘自《Microsoft.NET 企业级应用架构设计》一书。
-
 [4] 摘自《微服务设计》一书。
-
 [5] 摘自《领域驱动设计精粹》一书
-
 [6] 来自大语言模型 LLM 相关术语
