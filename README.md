@@ -2,6 +2,8 @@
 
 ## A
 
+- Abstract Factory，抽象工厂
+- Abstract Factory Pattern，抽象工厂模式
 - abstraction layer，抽象层
 - access，获取，存取
 - access modifier，访问修饰符
@@ -9,6 +11,8 @@
 - Active Directory，活动目录
 - Acyclic Dependencies Principle，非循环依赖原则（ADP）
 - acyclic digraph，有向无环图
+- Adapter，适配器
+- Adapter Pattern，适配器模式
 - Adaptive Code，自适应代码
 - Add Parameter，添加参数
 - ADSL，Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
@@ -86,6 +90,7 @@
 - bear，熊
 - behavior，行为
 - behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
+- Behavioral Design Patterns，行为性设计模式
 - Behavioral error，行为错误
 - BERT，Bidirectional Encoder Representations from Transformers，谷歌公司的 LLM，对 NLP 研究产生了重大影响。该模型使用双向方法从一个词的左右两边捕捉上下文，使得各种任务的性能提高，如情感分析和命名实体识别。
 - BFF，为前端服务的后端（Backends For Frontends）<sup>4</sup> 
@@ -109,6 +114,8 @@
 - Brainstorming，头脑风暴（脑暴）
 - BRD，商业需求文档（Business Requirements Document）
 - breakpoint，断点
+- Bridge，桥接
+- Bridge Pattern，桥接模式
 - broadcast，（无线电或电视）广播
 - Broken Hierarchy，支离破碎的层次结构<sup>2</sup>
 - Broken Modularization，拆散的模块化<sup>2</sup>
@@ -116,6 +123,7 @@
 - Browser Object Model，浏览器对象模型（BOM）
 - browser-server，浏览器-服务器
 - bug，缺陷
+- Builder Pattern，建造者模式
 - built-in，内置的，内建的；嵌入的；内置
 - bulkhead，舱壁<sup>4</sup>
 - business intelligence，商业智能，将企业中现有的数据进行有效的整合，快速准确地提供报表并提出决策依据，帮助企业做出明智的业务经营决策。
@@ -145,6 +153,8 @@
 - Central Processing Unit，中央处理器（CPU）
 - certificate，（数字）证书
 - Certificate Authority，证书认证机构
+- Chain of Responsibility，责任链
+- Chain of Responsibility Pattern，责任链模式
 - Chain-of-Thought，思维链（CoT） <sup>6</sup>
 - Chain-of-Thought-Self-Consistency，思维链自洽性 <sup>6</sup>
 - Change Bidirectional Association to Unidirectional，将双向关联改为单向关联<sup>1</sup>
@@ -184,6 +194,7 @@
 - Collapse Hierarchy，折叠继承关系<sup>1</sup>
 - comcurrency，并发
 - command，命令
+- Command Pattern，命令模式
 - command prompt，命令行提示
 - Command/Query Responsibility Segregation，命令/查询职责分离（CQRS）
 - Command/Query Separation，命令/查询分离（CQS）
@@ -203,7 +214,7 @@
 - Component Object Model，组件对象模型（COM）
 - Composability，组合性
 - composite formatting，复合格式化
-- Composite Pattern，复合模式
+- Composite Pattern，复合模式、组合模式
 - concurrency conflicts，并发冲突
 - concurrency mode，并发模式
 - conditional compilation，条件编译
@@ -244,6 +255,7 @@
 - CQRS，命令查询职责分离（Command-Query Responsibility Segregation）
 - crash，（程序）崩溃
 - crash dump，故障转储
+- Creational Design Patterns，创建性设计模式
 - CRC，类-职责-交互（class-responsibility-collaboration）<sup>4</sup>
 - credential，凭证<sup>4</sup>
 - cririque，评估
@@ -283,7 +295,7 @@
 - Data Transfer Object，数据传输对象（DTO）
 - declarative programming，宣告式编程
 - Decompose Conditional，分解条件表达式<sup>1</sup>
-- Decorator Pattern，修饰器模式（DP）
+- Decorator Pattern，修饰器模式（DP）、装饰模式
 - Deep Hierarchy，过深的层次结构<sup>2</sup>
 - Default Literal，默认常值
 - Defensive Programming，防御式编程
@@ -373,6 +385,8 @@
 
 ## F
 
+- Facade Pattern，外观模式
+- Factory Method Pattern，工厂方法模式
 - failover，容错转移
 - failure domain，故障域
 - fake object，伪对象：在测试中伪装成一个类的合作者的对象
@@ -386,6 +400,7 @@
 - fine-tuning，微调
 - first-party，第一方
 - Floopy Disk Drive，软盘（FDD）
+- Flyweight Pattern，享元模式
 - follow up，跟进
 - foreign key，外键
 - Form Template Method，塑造模板函数<sup>1</sup>
@@ -495,6 +510,7 @@
 - Internal Endpoint，内部端点
 - Internet Information Service，Internet 信息服务（IIS）
 - Internet Protocol，互联网协议（IP）
+- Interpreter Pattern，解释器模式
 - interpolated strings，内插字符串
 - Introduce Assertion，引入断言<sup>1</sup>
 - Introduce Explaining Variable，引入解释性变量<sup>1</sup>
@@ -510,6 +526,7 @@
 - iterable，可迭代的
 - iteration，迭代
 - iterator，迭代器
+- Iterator Pattern，迭代模式
 - iterator protocol，迭代器协议
 
 ## J
@@ -584,7 +601,9 @@
 - Mean Time Between Failures，平均故障时间间隔（MTBF）<sup>4</sup>
 - Mean Time To Repair，平均修复时间（MTTR）<sup>4</sup>
 - Media Service，媒体服务
+- Mediator Pattern，中介者模式
 - Medium，中型
+- Memento Pattern，备忘录模式
 - Merge，合并
 - Metadata，元数据
 - metaprogramming ，元编程
@@ -626,6 +645,7 @@
 - normalize，规格化
 - notification，通知
 - notification hub，通知中心
+- Null Object Pattern，空对象模式
 - null-coalescing，空值合并
 - Null coalescing operator，空值合并运算符、空值结合运算符
 - N-Tier，N 层（结构）
@@ -633,9 +653,12 @@
 ## O
 
 - obfuscator，混淆器
+- Object Pool，对象池
+- Object Pool Pattern，对象池模式
 - Object/Relational Mapper，对象/关系映射器（ORM，O/RM）
 - object seam，对象接缝：在对象连接处可以通过替换一个对象为另一个对象来“更替”行为。在面向对象语言中，通常通过子类化产品代码中的类并重写其方法来实现这一点。
 - Objectives and Key Results，目标与关键成果法（OKR）
+- Observer Pattern，观察者模式
 - On-demand (media)，点播（媒体）
 - Once and Only Once，一次且仅一次<sup>3</sup>(OAOO)
 - One rule, one place，一个规则，实现一次
@@ -710,6 +733,7 @@
 - primary storage，主存储
 - primitive obsession，基本类型偏执<sup>2</sup>
 - principal，主体<sup>4</sup>
+- Private Class Data Pattern，私有类数据模式
 - private cloud，私有云
 - priority queue，优先级队列
 - probe，探测器
@@ -728,7 +752,9 @@
 - protected variation，防止变异
 - protocol，协议
 - prototype，原型
+- Prototype Pattern，原型模式
 - proxy，代理
+- Proxy Pattern，代理模式
 - public cloud，公有云
 - Pull Up Constructor Body，构造函数本体上移<sup>1</sup>
 - Pull Up Field，字段上移<sup>1</sup>
@@ -902,6 +928,7 @@
 - Staging，过渡（环境）
 - state indeterminism，状态不确定性
 - State-based testing，基于状态的测试
+- State Pattern，状态模式
 - Stateless，无状态
 - Sticky Session，黏性会话
 - Stickyness，黏性；黏度
@@ -910,7 +937,9 @@
 - Storage Account，存储账户
 - Strangler Application Pattern，绞杀者模式<sup>4</sup>
 - strategic development tools，战略设计工具 <sup>5</sup>，战略开发工具
+- Strategy Pattern，策略模式
 - Stream，流
+- Structural Design Patterns 结构性设计模式
 - structure，结构
 - Structured Systems Analysis and Design Methodology，结构化系统分析和设计方法（SSADM）
 - Subnet，子网
@@ -937,7 +966,7 @@
 - Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
 - technical bankruptcy，技术破产
 - Technical Debt，技术债务（TDBT）
-- Template Method pattern，模板方法模式
+- Template Method Pattern，模板方法模式
 - Tenant，租户
 - Terminus，端点
 - test doubles，测试替身
@@ -1021,6 +1050,7 @@
 - Virtual Private Network，虚拟专用网络（VPN），在公用网络上建立专用网络，进行加密通讯，如网关通过对数据包的加密和数据包目标地址的转换实现远程访问。
 - Virtual Reality，虚拟现实（VR）
 - viscosity，粘稠性
+- Visitor Pattern，访问者模式
 - VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 - VOL，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 - Volume Licensing for Organizations，团体批量许可证；大量采购授权合约（VOL 或 VLO）
@@ -1080,8 +1110,13 @@
 # 注释
 
 [1] 重构列表，摘自《重构》一书。
+
 [2] 坏味道列表，摘自《软件设计重构》一书。
+
 [3] 摘自《Microsoft.NET 企业级应用架构设计》一书。
+
 [4] 摘自《微服务设计》一书。
+
 [5] 摘自《领域驱动设计精粹》一书
+
 [6] 来自大语言模型 LLM 相关术语
