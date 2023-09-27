@@ -2,12 +2,17 @@
 
 ## A
 
+- Abstract Factory，抽象工厂
+- Abstract Factory Pattern，抽象工厂模式
 - abstraction layer，抽象层
 - access，获取，存取
+- access modifier，访问修饰符
 - acoustic coupler，声音耦合器
 - Active Directory，活动目录
 - Acyclic Dependencies Principle，非循环依赖原则（ADP）
 - acyclic digraph，有向无环图
+- Adapter，适配器
+- Adapter Pattern，适配器模式
 - Adaptive Code，自适应代码
 - Add Parameter，添加参数
 - ADSL，Asymmetrical Dingital Subscriber Loop，非对称数字用户环线
@@ -24,12 +29,14 @@
 - AI，Artificial Intelligence，人工智能
 - air waves，无线电波
 - algorithm，算法
+- Algorithm-of-Thought，思维算法（AoT） <sup>6</sup> 
 - analog，模拟的
 - animation，动画
 - annotation，注解，注释
 - answering machine，电话应答机
 - antenna，天线
 - anti-pattern，反模式
+- AoT，思维算法（Algorithm-of-Thought） <sup>6</sup> 
 - APM，异步编程模型（Asynchronous Programming Model）
 - Apocalyptic defect，灾难缺陷
 - application，应用，应用程序，应用软件
@@ -55,10 +62,11 @@
 - atomic operation，原子操作
 - atomic transaction，原子事务
 - atomicity，原子性
-- attribute，特性
+- attribute，特性（C#）、属性（Java 等）
 - augmented reality，增强实现（AR）
 - authentication，身份验证
 - authorization，授权
+- auto-generated properties，自动生成的属性
 - automated unit testing，自动化单元测试
 - automation，自动化
 - autonomous，独立性
@@ -82,8 +90,11 @@
 - bear，熊
 - behavior，行为
 - behavior preserving program transformations，行为保留式程序转换<sup>1</sup>
+- Behavioral Design Patterns，行为性设计模式
 - Behavioral error，行为错误
-- BFF，为前端服务的后端（Backends For Frontends）<sup>4</sup>
+- BERT，Bidirectional Encoder Representations from Transformers，谷歌公司的 LLM，对 NLP 研究产生了重大影响。该模型使用双向方法从一个词的左右两边捕捉上下文，使得各种任务的性能提高，如情感分析和命名实体识别。
+- BFF，为前端服务的后端（Backends For Frontends）<sup>4</sup> 
+- BFS，广度优先搜索
 - Big Ball of Mud，大泥球（BBM）
 - big data，大数据
 - Big Design Up Front，大优先设计（BDUF）
@@ -103,6 +114,8 @@
 - Brainstorming，头脑风暴（脑暴）
 - BRD，商业需求文档（Business Requirements Document）
 - breakpoint，断点
+- Bridge，桥接
+- Bridge Pattern，桥接模式
 - broadcast，（无线电或电视）广播
 - Broken Hierarchy，支离破碎的层次结构<sup>2</sup>
 - Broken Modularization，拆散的模块化<sup>2</sup>
@@ -110,6 +123,7 @@
 - Browser Object Model，浏览器对象模型（BOM）
 - browser-server，浏览器-服务器
 - bug，缺陷
+- Builder Pattern，建造者模式
 - built-in，内置的，内建的；嵌入的；内置
 - bulkhead，舱壁<sup>4</sup>
 - business intelligence，商业智能，将企业中现有的数据进行有效的整合，快速准确地提供报表并提出决策依据，帮助企业做出明智的业务经营决策。
@@ -139,6 +153,10 @@
 - Central Processing Unit，中央处理器（CPU）
 - certificate，（数字）证书
 - Certificate Authority，证书认证机构
+- Chain of Responsibility，责任链
+- Chain of Responsibility Pattern，责任链模式
+- Chain-of-Thought，思维链（CoT） <sup>6</sup>
+- Chain-of-Thought-Self-Consistency，思维链自洽性 <sup>6</sup>
 - Change Bidirectional Association to Unidirectional，将双向关联改为单向关联<sup>1</sup>
 - Change Point，修改点：需要往代码中引入修改的点
 - Change Reference to Value，将引用对象改为值对象<sup>1</sup>
@@ -176,6 +194,7 @@
 - Collapse Hierarchy，折叠继承关系<sup>1</sup>
 - comcurrency，并发
 - command，命令
+- Command Pattern，命令模式
 - command prompt，命令行提示
 - Command/Query Responsibility Segregation，命令/查询职责分离（CQRS）
 - Command/Query Separation，命令/查询分离（CQS）
@@ -191,10 +210,11 @@
 - common name，通用名称
 - compatibility，兼容性
 - Competing Consumer pattern，消费者竞争模式<sup>4</sup>
+- compile-time correctness checking，编译时正确性检查
 - Component Object Model，组件对象模型（COM）
 - Composability，组合性
 - composite formatting，复合格式化
-- Composite Pattern，复合模式
+- Composite Pattern，复合模式、组合模式
 - concurrency conflicts，并发冲突
 - concurrency mode，并发模式
 - conditional compilation，条件编译
@@ -227,6 +247,7 @@
 - corruption，损毁
 - Cosmetic issue，外观上问题
 - Cost of Change，更改开销（CoC）
+- CoT，思维链（Chain-of-Thought）<sup>6</sup>
 - COTS，现成的商业软件（Commercial Off-The Shelf）<sup>4</sup>
 - counterpoint，对位<sup>4</sup>
 - Coupling count，耦合数：当一个方法被调用时传给它以及从它传出来的值的数目。如果该方法没有返回值，则耦合数就是它的参数数目。否则就是参数数目加 1。如果你想要在没有测试的情况下提取出一个消防法的话，计算一下它的耦合数是很有意义的。
@@ -234,6 +255,7 @@
 - CQRS，命令查询职责分离（Command-Query Responsibility Segregation）
 - crash，（程序）崩溃
 - crash dump，故障转储
+- Creational Design Patterns，创建性设计模式
 - CRC，类-职责-交互（class-responsibility-collaboration）<sup>4</sup>
 - credential，凭证<sup>4</sup>
 - cririque，评估
@@ -259,6 +281,7 @@
 ## D
 
 - DaaS，Data as a Service，数据即服务
+- DAG，有向无循环图
 - dashboard，仪表盘
 - data access layer，数据访问层
 - Data Storage as a Service，数据存储即服务（DaaS）
@@ -272,7 +295,7 @@
 - Data Transfer Object，数据传输对象（DTO）
 - declarative programming，宣告式编程
 - Decompose Conditional，分解条件表达式<sup>1</sup>
-- Decorator Pattern，修饰器模式（DP）
+- Decorator Pattern，修饰器模式（DP）、装饰模式
 - Deep Hierarchy，过深的层次结构<sup>2</sup>
 - Default Literal，默认常值
 - Defensive Programming，防御式编程
@@ -288,6 +311,7 @@
 - design pattern，设计模式
 - Design Requirements Document，交互设计说明文档（DRD）
 - device，设备
+- DFS，深度优先搜索
 - DfT，为可测试性而设计
 - DI，依赖注入（dependency injection）
 - DIaaS，Data intelligence as a Service，数据智能即服务（出自2022年6月29日，阿里常规线上新品牌发布会）
@@ -329,6 +353,7 @@
 - ELBs，弹性负载均衡器（Elastic Load Balancers）<sup>4</sup>
 - Element (XML)，元素
 - Elvis Operator，埃尔维斯运算符
+- Emergence，涌现、创发、突现、呈展、演生，是一种现象。
 - Encapsulate Collection，封装集合<sup>1</sup>
 - Encapsulate Downset，封装向下转型<sup>1</sup>
 - Encapsulate Field，封装字段<sup>1</sup>
@@ -360,6 +385,8 @@
 
 ## F
 
+- Facade Pattern，外观模式
+- Factory Method Pattern，工厂方法模式
 - failover，容错转移
 - failure domain，故障域
 - fake object，伪对象：在测试中伪装成一个类的合作者的对象
@@ -370,8 +397,10 @@
 - FDD，软盘（Floppy Disk Drive）
 - feature sketch，特性草图
 - feed，聚合（资源聚合）
+- fine-tuning，微调
 - first-party，第一方
-- Floppy Disk Drive，软盘（FDD）
+- Floopy Disk Drive，软盘（FDD）
+- Flyweight Pattern，享元模式
 - follow up，跟进
 - foreign key，外键
 - Form Template Method，塑造模板函数<sup>1</sup>
@@ -386,6 +415,7 @@
 - Functional Requirements Document，功能需求文档（FRD）
 - full-duplex，全双工
 - Full Packaged Product，零售版（FPP）
+- Function Pointers，函数指针
 
 ## G
 
@@ -393,15 +423,22 @@
 - gauge，计量表<sup>4</sup>
 - GC Heap，垃圾回收堆
 - GC root，GC 根对象
+- Generalization，泛化
 - Generalized Async，通用异步
 - Generalized Async Return，通用异步返回（C# 7.0）
 - generalizing specialist，全科专家（敏捷开发术语）
 - generator，生成器
+- Generic Attributes，泛型特性
+- Generic Math，泛型数学
 - Geo-Replication，地域复制
 - Geo Redundant，地域冗余
 - Global Assembly Cache，全局程序集缓存（GAC）
 - global state，全局状态
+- global using directives，全局 Using 指令
 - Goal Directed Design，目标导向设计，旨在处理并满足用户目标和动机，包含产品目标和用户目标
+- GoT，思维图，思维图谱（Graph-of-Thought） <sup>6</sup> 
+- GPT-3，Generative Pre-trained Transformer 3，是 OpenAI 最注明的 LLM 之一 <sup>6</sup> ，拥有1750亿个参数。该模型在文本生成、翻译和其他任务中表现出显著的性能，在全球范围内引起了热烈的反响，目前 OpenAI 已经迭代到了更高版本。
+- Graph-of-Thought，思维图，思维图谱（GoT） <sup>6</sup> 
 - Graphical User Interface，图像用户界面设计（GUI），是一种结合计算机科学、美学、心理学、行为学、及各商业领域需求分析的人机系统工程，强调人、机、环境三者作为一个系统进行总体设计。
 - GUI，图像用户界面设计（Graphical User Interface）
 
@@ -448,6 +485,7 @@
 - image，映像
 - immersion approach，沉浸法
 - Imperative Abstraction，命令式抽象<sup>2</sup>
+- in-context learning，上下文学习 <sup>6</sup> 
 - Incomplete Abstraction，不完整的抽象<sup>2</sup>
 - index，索引
 - Information Architect，信息架构（IA）
@@ -462,6 +500,8 @@
 - Instance InputEndpoint，实例输入端点
 - Instant Messaging，即时通讯（IM）
 - instantiation，实例化
+- instantiator，实例化器
+- instruction fine-tuning，指令微调
 - Insufficient Modularization，不充分的模块化<sup>2</sup>
 - Interaction-based testing，基于交互的测试
 - Intercept，截取
@@ -470,6 +510,8 @@
 - Internal Endpoint，内部端点
 - Internet Information Service，Internet 信息服务（IIS）
 - Internet Protocol，互联网协议（IP）
+- Interpreter Pattern，解释器模式
+- interpolated strings，内插字符串
 - Introduce Assertion，引入断言<sup>1</sup>
 - Introduce Explaining Variable，引入解释性变量<sup>1</sup>
 - Introduce Foreign Method，引入外加函数<sup>1</sup>
@@ -484,6 +526,7 @@
 - iterable，可迭代的
 - iteration，迭代
 - iterator，迭代器
+- Iterator Pattern，迭代模式
 - iterator protocol，迭代器协议
 
 ## J
@@ -511,6 +554,7 @@
 
 - Language Integrated Query，语言集成查询（LINQ）
 - Large，大型
+- Large Language Model，大型语言模型（LLM） <sup>6</sup> 
 - Layered Architecture，分层架构
 - LDAP，Lightweight Directory Access Protocol，轻型目录访问协议
 - Leaky Encapsulation，泄露的封装<sup>2</sup>
@@ -525,6 +569,7 @@
 - Liskov Substitution Principle，里氏替换原则（LSP）
 - literal，字面量、文字常量、直接量
 - living style guides，活样式指导<sup>4</sup>
+- LLM，大型语言模型（Large Language Model） <sup>6</sup> 
 - load-balancing，负载平衡
 - load balancer，负载平衡器
 - load factor，负载因子
@@ -556,9 +601,12 @@
 - Mean Time Between Failures，平均故障时间间隔（MTBF）<sup>4</sup>
 - Mean Time To Repair，平均修复时间（MTTR）<sup>4</sup>
 - Media Service，媒体服务
+- Mediator Pattern，中介者模式
 - Medium，中型
+- Memento Pattern，备忘录模式
 - Merge，合并
 - Metadata，元数据
+- metaprogramming ，元编程
 - Middleware，中间件
 - mind map，思维导图、脑图、心智图
 - Minimum Marketable Feature，最小可售特性（MMF）
@@ -581,6 +629,7 @@
 
 ## N
 
+- naming collisions 命名冲突
 - Namespace，命名空间，名称空间
 - native code，本机代码
 - NCC，.NET Core 社区（.NET Core Community）/.NET 中国社区（.NET China Community）
@@ -589,11 +638,14 @@
 - NFC，近距离无线通信（Near Field Communication）
 - nfx，.NET Framework（.NET 框架）
 - Non-clustered Index，非聚集索引
+- non-managed code，非托管代码
+- non-optional，非可选的
 - non-transactional pipeline，非事务型流水线
 - node，节点
 - normalize，规格化
 - notification，通知
 - notification hub，通知中心
+- Null Object Pattern，空对象模式
 - null-coalescing，空值合并
 - Null coalescing operator，空值合并运算符、空值结合运算符
 - N-Tier，N 层（结构）
@@ -601,9 +653,12 @@
 ## O
 
 - obfuscator，混淆器
+- Object Pool，对象池
+- Object Pool Pattern，对象池模式
 - Object/Relational Mapper，对象/关系映射器（ORM，O/RM）
 - object seam，对象接缝：在对象连接处可以通过替换一个对象为另一个对象来“更替”行为。在面向对象语言中，通常通过子类化产品代码中的类并重写其方法来实现这一点。
 - Objectives and Key Results，目标与关键成果法（OKR）
+- Observer Pattern，观察者模式
 - On-demand (media)，点播（媒体）
 - Once and Only Once，一次且仅一次<sup>3</sup>(OAOO)
 - One rule, one place，一个规则，实现一次
@@ -647,6 +702,7 @@
 - Percent Encoding，百分号编码
 - performance，性能
 - performance counter，性能计数器
+- performance-oriented，面向性能
 - Person-to-Person，个人对个人（P2P）
 - Personal Computer，个人计算机（PC）
 - Pessimistic Concurrency，悲观并发控制
@@ -655,7 +711,8 @@
 - pinch point，汇点：影响结构图中的隘口和交通要冲，在汇点编写测试的好处就是只需针对少数几个方法编写测试，就能达到探测大量其他方法的改动的目的。
 - placeholder，占位符
 - Platform as a Service，平台即服务（Paas）
-- PMD，项目管理文档（Program Management Document）
+- PMD，项目管理文档（Program Managment Document）
+- point of invocation of the method，方法调用点
 - Point-to-Site，点到站点
 - polling，轮询
 - polymorphism，多态
@@ -663,9 +720,11 @@
 - Poor Man’s Dependency Injection，穷人的依赖注入
 - post-initialization，后初始化
 - postcondition，后置条件
+- PoT，程序思维（Program-to-Thoughts） <sup>6</sup> 
 - PRD，产品需求文档（Product Requirements Document）
 - pre-flight request，事先请求
 - pre-initialization，预初始化
+- pre-training，预训练 <sup>6</sup> 
 - Predicate Decorator，谓词修饰器
 - precondition，前提，前置条件
 - presentation layer，表现层
@@ -674,6 +733,7 @@
 - primary storage，主存储
 - primitive obsession，基本类型偏执<sup>2</sup>
 - principal，主体<sup>4</sup>
+- Private Class Data Pattern，私有类数据模式
 - private cloud，私有云
 - priority queue，优先级队列
 - probe，探测器
@@ -684,14 +744,17 @@
 - Product Requirements Document，产品需求文档（PRD）
 - production，生产（环境）
 - production load，生产负载<sup>4</sup>
-- Program Management Document，项目管理文档（PMD）
+- Program Managment Document，项目管理文档（PMD）
+- Program-to-Thoughts，程序思维（PoT） <sup>6</sup> 
 - programming by difference，差异式编程
 - proof of concept，概念验证
 - proportional error rate，错误率比例<sup>4</sup>
 - protected variation，防止变异
 - protocol，协议
 - prototype，原型
+- Prototype Pattern，原型模式
 - proxy，代理
+- Proxy Pattern，代理模式
 - public cloud，公有云
 - Pull Up Constructor Body，构造函数本体上移<sup>1</sup>
 - Pull Up Field，字段上移<sup>1</sup>
@@ -723,9 +786,13 @@
 - Ref Return，应用返回
 - Ref Local，局部引用
 - Ref Property，引用属性
+- Ref-Safe-to-Escape，引用安全逃逸
+- Ref-Safe-to-Escape scope，引用安全逃逸范围
 - Refactor，重构
 - region，地域
 - reification，具体化
+- Reinforcement Learning，强化学习，一种机器学习的方法，通过从外部获得激励来校正学习方向从而获得一种自适应的学习能力
+- Reinforcement Learning from Human Feedback，基于人工反馈的强化学习（RLHF）
 - relay，中继
 - Relevancy，适切性
 - Reliability，可靠性
@@ -771,6 +838,7 @@
 - retail，零售版
 - Rich Client，丰富客户端
 - Ripple Effect，涟漪效应
+- RLHF，基于人工反馈的强化学习（Reinforcement Learning from Human Feedback）
 - role，角色
 - Rolling Upgrade，滚动升级
 - round-robin，轮流（分配）；轮叫
@@ -783,6 +851,8 @@
 ## S
 
 - Saas，软件即服务（Software As A Service）
+- Safe-to-Escape，安全逃逸
+- Safe-to-Escape scope，安全逃逸范围
 - salted password hashing，加盐密码哈希<sup>4</sup>
 - SAN，存储区域网络（Storage Area Network）<sup>4</sup>
 - SASL，简单认证与安全层
@@ -809,6 +879,7 @@
 - Self Encapsulate Field，自封装字段<sup>1</sup>
 - self-hosted，自管理主机<sup>4</sup>
 - Self-signed Certificate，自签名证书
+- Semantic Kernel，语义核心 <sup>6</sup> 
 - semantic monitoring，语义监控<sup>4</sup>
 - Semantic Versioning，语义化版本控制
 - Separate Domain from Presentation，将领域和表述/显示分离<sup>1</sup>
@@ -836,12 +907,14 @@
 - Singleton Pattern，单例模式
 - Site，站点
 - Site-to-Site，站点到站点
+- Skeleton-to-Thought，思维框架（SoT） <sup>6</sup> 
 - skip list，跳跃表
 - SLA，服务水平协议、服务等级协议（Service Level Agreement）
 - Small，小型
 - smart endpoint，智能端点<sup>4</sup>
 - snapshot，快照
 - SOA，面向服务的架构（Service-Oriented Architecture）
+- SoT，思维框架（Skeleton-to-Thought） <sup>6</sup> 
 - Software as a Service，软件即服务（Saas）
 - source lines of code，源代码行数（SLOC）
 - Speculative Hierarchy，凭空想象的层次结构<sup>2</sup>
@@ -855,6 +928,7 @@
 - Staging，过渡（环境）
 - state indeterminism，状态不确定性
 - State-based testing，基于状态的测试
+- State Pattern，状态模式
 - Stateless，无状态
 - Sticky Session，黏性会话
 - Stickyness，黏性；黏度
@@ -863,7 +937,9 @@
 - Storage Account，存储账户
 - Strangler Application Pattern，绞杀者模式<sup>4</sup>
 - strategic development tools，战略设计工具 <sup>5</sup>，战略开发工具
+- Strategy Pattern，策略模式
 - Stream，流
+- Structural Design Patterns 结构性设计模式
 - structure，结构
 - Structured Systems Analysis and Design Methodology，结构化系统分析和设计方法（SSADM）
 - Subnet，子网
@@ -890,7 +966,7 @@
 - Tease Apart Inheritance，梳理并分解继承体系<sup>1</sup>
 - technical bankruptcy，技术破产
 - Technical Debt，技术债务（TDBT）
-- Template Method pattern，模板方法模式
+- Template Method Pattern，模板方法模式
 - Tenant，租户
 - Terminus，端点
 - test doubles，测试替身
@@ -911,6 +987,8 @@
 - Topic，主题
 - Topology，拓扑结构
 - Token，令牌
+- Top-level statements，顶级语句
+- ToT，思维树（Tree-of-Thought）
 - TPL，任务并行库
 - (Code) Tracing，（代码）追踪
 - Transaction，事务
@@ -918,6 +996,7 @@
 - Transient Error，瞬时错误
 - Transparent Data Encryption，透明数据加密<sup>4</sup>
 - Transportation Network Providers，交通网络提供者（TNP）
+- Tree-of-Thought，思维树（ToT） <sup>6</sup> 是一种通过将复杂问题分解为更易于解决的小问题，为 LLM 推理提供更结构化的提示框架
 - Type Bloat，类型膨胀
 
 ## U
@@ -940,10 +1019,12 @@
 - unit of work，工作单元
 - Unit test，单元测试
 - unit test coverage，单元测试覆盖率
-- unmanaged code，非托管代码
 - unit-testing harnesses，单元测试用例
+- unmanaged code，非托管代码
+- Unmanaged Pointers，非托管指针
 - Unnecessary Abstract，不必要的抽象<sup>2</sup>
 - Unnecessary Hierarchy，不必要的层次结构<sup>2</sup>
+- unnecessary overhead，不必要的开销
 - Unutilized Abstraction，未用的抽象<sup>2</sup>
 - Usability Review，可用性评估
 - User Acceptance Test，接受度测试（UAT）
@@ -969,6 +1050,7 @@
 - Virtual Private Network，虚拟专用网络（VPN），在公用网络上建立专用网络，进行加密通讯，如网关通过对数据包的加密和数据包目标地址的转换实现远程访问。
 - Virtual Reality，虚拟现实（VR）
 - viscosity，粘稠性
+- Visitor Pattern，访问者模式
 - VLO，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 - VOL，团体批量许可证；大量采购授权合约（Volume Licensing for Organizations）
 - Volume Licensing for Organizations，团体批量许可证；大量采购授权合约（VOL 或 VLO）
@@ -1036,3 +1118,5 @@
 [4] 摘自《微服务设计》一书。
 
 [5] 摘自《领域驱动设计精粹》一书
+
+[6] 来自大语言模型 LLM 相关术语
